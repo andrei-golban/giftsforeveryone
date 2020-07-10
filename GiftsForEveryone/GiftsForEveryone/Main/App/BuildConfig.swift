@@ -11,7 +11,7 @@ import Foundation
 final class BuildConfig {
     
     private enum Key: String {
-        case configuration
+        case configuration = "Configuration"
         case apiURL
     }
     
