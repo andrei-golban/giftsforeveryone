@@ -61,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7508C81024B87CAE00B2D501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7508C81124B87CB600B2D501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7566052024B864C300121222 /* GiftsForEveryone-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7566052324B864C300121222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7566052524B864C300121222 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7508C81224B87DD400B2D501 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7508C81624B87F2B00B2D501 /* Model */,
+				7508C81724B87F3300B2D501 /* Network */,
+				7508C81824B87F3800B2D501 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7508C81324B87DDB00B2D501 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7508C81924B880DA00B2D501 /* Model */,
+				7508C81A24B880DF00B2D501 /* Repository */,
+				7508C81B24B880E500B2D501 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7508C81424B87DE100B2D501 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				7508C81F24B8813C00B2D501 /* Common */,
+				7508C81E24B8812300B2D501 /* Helper */,
+				7508C81C24B8810000B2D501 /* Scene */,
+				7508C81D24B8811000B2D501 /* UIElement */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		7508C81524B87DEE00B2D501 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7508C81624B87F2B00B2D501 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7508C81724B87F3300B2D501 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7508C81824B87F3800B2D501 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7508C81924B880DA00B2D501 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7508C81A24B880DF00B2D501 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7508C81B24B880E500B2D501 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		7508C81C24B8810000B2D501 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		7508C81D24B8811000B2D501 /* UIElement */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIElement;
+			sourceTree = "<group>";
+		};
+		7508C81E24B8812300B2D501 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7508C81F24B8813C00B2D501 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		7566051724B864C300121222 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +279,10 @@
 			isa = PBXGroup;
 			children = (
 				756605A724B8737600121222 /* App */,
+				7508C81524B87DEE00B2D501 /* Common */,
+				7508C81224B87DD400B2D501 /* Data */,
+				7508C81324B87DDB00B2D501 /* Domain */,
+				7508C81424B87DE100B2D501 /* Presentation */,
 				756605A824B8739B00121222 /* Resource */,
 			);
 			path = Main;
@@ -222,6 +336,7 @@
 		756605A524B86B4400121222 /* QA */ = {
 			isa = PBXGroup;
 			children = (
+				7508C81024B87CAE00B2D501 /* Info.plist */,
 			);
 			path = QA;
 			sourceTree = "<group>";
@@ -229,6 +344,7 @@
 		756605A624B86B4D00121222 /* RC */ = {
 			isa = PBXGroup;
 			children = (
+				7508C81124B87CB600B2D501 /* Info.plist */,
 			);
 			path = RC;
 			sourceTree = "<group>";
