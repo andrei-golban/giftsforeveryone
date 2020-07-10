@@ -11,9 +11,43 @@
 		7566052624B864C300121222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052524B864C300121222 /* SceneDelegate.swift */; };
 		7566052824B864C300121222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052724B864C300121222 /* ViewController.swift */; };
 		7566052B24B864C300121222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052924B864C300121222 /* Main.storyboard */; };
-		7566052D24B864C400121222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566052C24B864C400121222 /* Assets.xcassets */; };
+		7566052D24B864C400121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566052C24B864C400121222 /* Images.xcassets */; };
 		7566053024B864C400121222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052E24B864C400121222 /* LaunchScreen.storyboard */; };
 		7566053B24B864C400121222 /* GiftsForEveryoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566053A24B864C400121222 /* GiftsForEveryoneTests.swift */; };
+		7566054724B868B900121222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052724B864C300121222 /* ViewController.swift */; };
+		7566054824B868B900121222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052324B864C300121222 /* AppDelegate.swift */; };
+		7566054924B868B900121222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052524B864C300121222 /* SceneDelegate.swift */; };
+		7566054C24B868B900121222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052E24B864C400121222 /* LaunchScreen.storyboard */; };
+		7566054D24B868B900121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566052C24B864C400121222 /* Images.xcassets */; };
+		7566054E24B868B900121222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052924B864C300121222 /* Main.storyboard */; };
+		7566055924B8696C00121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055824B8696C00121222 /* Images.xcassets */; };
+		7566055A24B8696C00121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055824B8696C00121222 /* Images.xcassets */; };
+		7566055C24B8697A00121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055B24B8697A00121222 /* Colors.xcassets */; };
+		7566055D24B8697A00121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055B24B8697A00121222 /* Colors.xcassets */; };
+		7566058524B86AF100121222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052724B864C300121222 /* ViewController.swift */; };
+		7566058624B86AF100121222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052324B864C300121222 /* AppDelegate.swift */; };
+		7566058724B86AF100121222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052524B864C300121222 /* SceneDelegate.swift */; };
+		7566058A24B86AF100121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055B24B8697A00121222 /* Colors.xcassets */; };
+		7566058B24B86AF100121222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052E24B864C400121222 /* LaunchScreen.storyboard */; };
+		7566058C24B86AF100121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055824B8696C00121222 /* Images.xcassets */; };
+		7566058D24B86AF100121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566052C24B864C400121222 /* Images.xcassets */; };
+		7566058E24B86AF100121222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052924B864C300121222 /* Main.storyboard */; };
+		7566059624B86AFD00121222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052724B864C300121222 /* ViewController.swift */; };
+		7566059724B86AFD00121222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052324B864C300121222 /* AppDelegate.swift */; };
+		7566059824B86AFD00121222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052524B864C300121222 /* SceneDelegate.swift */; };
+		7566059B24B86AFD00121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055B24B8697A00121222 /* Colors.xcassets */; };
+		7566059C24B86AFD00121222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052E24B864C400121222 /* LaunchScreen.storyboard */; };
+		7566059D24B86AFD00121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055824B8696C00121222 /* Images.xcassets */; };
+		7566059E24B86AFD00121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566052C24B864C400121222 /* Images.xcassets */; };
+		7566059F24B86AFD00121222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052924B864C300121222 /* Main.storyboard */; };
+		756605AB24B873E600121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756605AA24B873E600121222 /* Colors.xcassets */; };
+		756605AC24B873E600121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756605AA24B873E600121222 /* Colors.xcassets */; };
+		756605AD24B873E600121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756605AA24B873E600121222 /* Colors.xcassets */; };
+		756605AE24B873E600121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756605AA24B873E600121222 /* Colors.xcassets */; };
+		756605B124B8743400121222 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756605B024B8743400121222 /* BuildConfig.swift */; };
+		756605B224B8743400121222 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756605B024B8743400121222 /* BuildConfig.swift */; };
+		756605B324B8743400121222 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756605B024B8743400121222 /* BuildConfig.swift */; };
+		756605B424B8743400121222 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756605B024B8743400121222 /* BuildConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +61,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7566052024B864C300121222 /* GiftsForEveryone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftsForEveryone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7566052024B864C300121222 /* GiftsForEveryone-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7566052324B864C300121222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7566052524B864C300121222 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7566052724B864C300121222 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7566052A24B864C300121222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7566052C24B864C400121222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7566052C24B864C400121222 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7566052F24B864C400121222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7566053124B864C400121222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7566053624B864C400121222 /* GiftsForEveryoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftsForEveryoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7566053A24B864C400121222 /* GiftsForEveryoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftsForEveryoneTests.swift; sourceTree = "<group>"; };
 		7566053C24B864C400121222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7566055224B868B900121222 /* GiftsForEveryone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftsForEveryone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7566055824B8696C00121222 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7566055B24B8697A00121222 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		7566056024B869CE00121222 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7566059224B86AF100121222 /* GiftsForEveryone-QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-RC\U0003.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756605AA24B873E600121222 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		756605B024B8743400121222 /* BuildConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfig.swift; sourceTree = "<group>"; };
+		756605B524B875A000121222 /* GiftsForEveryoneDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GiftsForEveryoneDebug.xcconfig; sourceTree = "<group>"; };
+		756605B624B875AD00121222 /* GiftsForEveryoneQA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GiftsForEveryoneQA.xcconfig; sourceTree = "<group>"; };
+		756605B724B875B600121222 /* GiftsForEveryoneRC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GiftsForEveryoneRC.xcconfig; sourceTree = "<group>"; };
+		756605B824B875BE00121222 /* GiftsForEveryoneRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GiftsForEveryoneRelease.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +95,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7566053324B864C400121222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7566054A24B868B900121222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7566058824B86AF100121222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7566059924B86AFD00121222 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,8 +137,11 @@
 		7566052124B864C300121222 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7566052024B864C300121222 /* GiftsForEveryone.app */,
+				7566052024B864C300121222 /* GiftsForEveryone-Debug.app */,
 				7566053624B864C400121222 /* GiftsForEveryoneTests.xctest */,
+				7566055224B868B900121222 /* GiftsForEveryone.app */,
+				7566059224B86AF100121222 /* GiftsForEveryone-QA.app */,
+				756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,13 +149,9 @@
 		7566052224B864C300121222 /* GiftsForEveryone */ = {
 			isa = PBXGroup;
 			children = (
-				7566052324B864C300121222 /* AppDelegate.swift */,
-				7566052524B864C300121222 /* SceneDelegate.swift */,
-				7566052724B864C300121222 /* ViewController.swift */,
-				7566052924B864C300121222 /* Main.storyboard */,
-				7566052C24B864C400121222 /* Assets.xcassets */,
+				7566055524B8692E00121222 /* GiftsForEveryone */,
+				7566055424B8690B00121222 /* Main */,
 				7566052E24B864C400121222 /* LaunchScreen.storyboard */,
-				7566053124B864C400121222 /* Info.plist */,
 			);
 			path = GiftsForEveryone;
 			sourceTree = "<group>";
@@ -99,12 +165,113 @@
 			path = GiftsForEveryoneTests;
 			sourceTree = "<group>";
 		};
+		7566055424B8690B00121222 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				756605A724B8737600121222 /* App */,
+				756605A824B8739B00121222 /* Resource */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7566055524B8692E00121222 /* GiftsForEveryone */ = {
+			isa = PBXGroup;
+			children = (
+				7566055724B8694E00121222 /* Plist */,
+				7566055624B8694800121222 /* Resource */,
+			);
+			path = GiftsForEveryone;
+			sourceTree = "<group>";
+		};
+		7566055624B8694800121222 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7566055824B8696C00121222 /* Images.xcassets */,
+				7566055B24B8697A00121222 /* Colors.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7566055724B8694E00121222 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				7566055E24B8698100121222 /* Debug */,
+				756605A524B86B4400121222 /* QA */,
+				756605A624B86B4D00121222 /* RC */,
+				7566055F24B8698700121222 /* Release */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		7566055E24B8698100121222 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				7566053124B864C400121222 /* Info.plist */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		7566055F24B8698700121222 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				7566056024B869CE00121222 /* Info.plist */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		756605A524B86B4400121222 /* QA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QA;
+			sourceTree = "<group>";
+		};
+		756605A624B86B4D00121222 /* RC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RC;
+			sourceTree = "<group>";
+		};
+		756605A724B8737600121222 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7566052324B864C300121222 /* AppDelegate.swift */,
+				7566052524B864C300121222 /* SceneDelegate.swift */,
+				7566052724B864C300121222 /* ViewController.swift */,
+				7566052924B864C300121222 /* Main.storyboard */,
+				756605B024B8743400121222 /* BuildConfig.swift */,
+				756605AF24B8741E00121222 /* Config */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		756605A824B8739B00121222 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7566052C24B864C400121222 /* Images.xcassets */,
+				756605AA24B873E600121222 /* Colors.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		756605AF24B8741E00121222 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				756605B524B875A000121222 /* GiftsForEveryoneDebug.xcconfig */,
+				756605B624B875AD00121222 /* GiftsForEveryoneQA.xcconfig */,
+				756605B724B875B600121222 /* GiftsForEveryoneRC.xcconfig */,
+				756605B824B875BE00121222 /* GiftsForEveryoneRelease.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7566051F24B864C300121222 /* GiftsForEveryone */ = {
+		7566051F24B864C300121222 /* GiftsForEveryone-Debug */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7566053F24B864C400121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone" */;
+			buildConfigurationList = 7566053F24B864C400121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-Debug" */;
 			buildPhases = (
 				7566051C24B864C300121222 /* Sources */,
 				7566051D24B864C300121222 /* Frameworks */,
@@ -114,9 +281,9 @@
 			);
 			dependencies = (
 			);
-			name = GiftsForEveryone;
+			name = "GiftsForEveryone-Debug";
 			productName = GiftsForEveryone;
-			productReference = 7566052024B864C300121222 /* GiftsForEveryone.app */;
+			productReference = 7566052024B864C300121222 /* GiftsForEveryone-Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7566053524B864C400121222 /* GiftsForEveryoneTests */ = {
@@ -136,6 +303,57 @@
 			productName = GiftsForEveryoneTests;
 			productReference = 7566053624B864C400121222 /* GiftsForEveryoneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7566054524B868B900121222 /* GiftsForEveryone-Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7566054F24B868B900121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-Release" */;
+			buildPhases = (
+				7566054624B868B900121222 /* Sources */,
+				7566054A24B868B900121222 /* Frameworks */,
+				7566054B24B868B900121222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GiftsForEveryone-Release";
+			productName = GiftsForEveryone;
+			productReference = 7566055224B868B900121222 /* GiftsForEveryone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7566058324B86AF100121222 /* GiftsForEveryone-QA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7566058F24B86AF100121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-QA" */;
+			buildPhases = (
+				7566058424B86AF100121222 /* Sources */,
+				7566058824B86AF100121222 /* Frameworks */,
+				7566058924B86AF100121222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GiftsForEveryone-QA";
+			productName = GiftsForEveryone;
+			productReference = 7566059224B86AF100121222 /* GiftsForEveryone-QA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7566059424B86AFD00121222 /* GiftsForEveryone-RC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756605A024B86AFD00121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-RC" */;
+			buildPhases = (
+				7566059524B86AFD00121222 /* Sources */,
+				7566059924B86AFD00121222 /* Frameworks */,
+				7566059A24B86AFD00121222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GiftsForEveryone-RC\U0003";
+			productName = GiftsForEveryone;
+			productReference = 756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,7 +387,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7566051F24B864C300121222 /* GiftsForEveryone */,
+				7566051F24B864C300121222 /* GiftsForEveryone-Debug */,
+				7566058324B86AF100121222 /* GiftsForEveryone-QA */,
+				7566059424B86AFD00121222 /* GiftsForEveryone-RC */,
+				7566054524B868B900121222 /* GiftsForEveryone-Release */,
 				7566053524B864C400121222 /* GiftsForEveryoneTests */,
 			);
 		};
@@ -180,8 +401,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7566055C24B8697A00121222 /* Colors.xcassets in Resources */,
 				7566053024B864C400121222 /* LaunchScreen.storyboard in Resources */,
-				7566052D24B864C400121222 /* Assets.xcassets in Resources */,
+				7566055924B8696C00121222 /* Images.xcassets in Resources */,
+				756605AB24B873E600121222 /* Colors.xcassets in Resources */,
+				7566052D24B864C400121222 /* Images.xcassets in Resources */,
 				7566052B24B864C300121222 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +414,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7566054B24B868B900121222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7566055D24B8697A00121222 /* Colors.xcassets in Resources */,
+				7566054C24B868B900121222 /* LaunchScreen.storyboard in Resources */,
+				7566055A24B8696C00121222 /* Images.xcassets in Resources */,
+				756605AE24B873E600121222 /* Colors.xcassets in Resources */,
+				7566054D24B868B900121222 /* Images.xcassets in Resources */,
+				7566054E24B868B900121222 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7566058924B86AF100121222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7566058A24B86AF100121222 /* Colors.xcassets in Resources */,
+				7566058B24B86AF100121222 /* LaunchScreen.storyboard in Resources */,
+				7566058C24B86AF100121222 /* Images.xcassets in Resources */,
+				756605AC24B873E600121222 /* Colors.xcassets in Resources */,
+				7566058D24B86AF100121222 /* Images.xcassets in Resources */,
+				7566058E24B86AF100121222 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7566059A24B86AFD00121222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7566059B24B86AFD00121222 /* Colors.xcassets in Resources */,
+				7566059C24B86AFD00121222 /* LaunchScreen.storyboard in Resources */,
+				7566059D24B86AFD00121222 /* Images.xcassets in Resources */,
+				756605AD24B873E600121222 /* Colors.xcassets in Resources */,
+				7566059E24B86AFD00121222 /* Images.xcassets in Resources */,
+				7566059F24B86AFD00121222 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +465,7 @@
 			files = (
 				7566052824B864C300121222 /* ViewController.swift in Sources */,
 				7566052424B864C300121222 /* AppDelegate.swift in Sources */,
+				756605B124B8743400121222 /* BuildConfig.swift in Sources */,
 				7566052624B864C300121222 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,12 +478,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7566054624B868B900121222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7566054724B868B900121222 /* ViewController.swift in Sources */,
+				7566054824B868B900121222 /* AppDelegate.swift in Sources */,
+				756605B424B8743400121222 /* BuildConfig.swift in Sources */,
+				7566054924B868B900121222 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7566058424B86AF100121222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7566058524B86AF100121222 /* ViewController.swift in Sources */,
+				7566058624B86AF100121222 /* AppDelegate.swift in Sources */,
+				756605B224B8743400121222 /* BuildConfig.swift in Sources */,
+				7566058724B86AF100121222 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7566059524B86AFD00121222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7566059624B86AFD00121222 /* ViewController.swift in Sources */,
+				7566059724B86AFD00121222 /* AppDelegate.swift in Sources */,
+				756605B324B8743400121222 /* BuildConfig.swift in Sources */,
+				7566059824B86AFD00121222 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		7566053824B864C400121222 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7566051F24B864C300121222 /* GiftsForEveryone */;
+			target = 7566051F24B864C300121222 /* GiftsForEveryone-Debug */;
 			targetProxy = 7566053724B864C400121222 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -246,6 +543,7 @@
 /* Begin XCBuildConfiguration section */
 		7566053D24B864C400121222 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756605B524B875A000121222 /* GiftsForEveryoneDebug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -306,6 +604,7 @@
 		};
 		7566053E24B864C400121222 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756605B824B875BE00121222 /* GiftsForEveryoneRelease.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -364,12 +663,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V97M73FC9;
-				INFOPLIST_FILE = GiftsForEveryone/Info.plist;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/Debug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.GiftsForEveryone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -382,12 +681,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V97M73FC9;
-				INFOPLIST_FILE = GiftsForEveryone/Info.plist;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/Debug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.GiftsForEveryone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,6 +737,424 @@
 			};
 			name = Release;
 		};
+		7566055024B868B900121222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/Release/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone;
+				PRODUCT_NAME = GiftsForEveryone;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7566055124B868B900121222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/Release/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone;
+				PRODUCT_NAME = GiftsForEveryone;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7566059024B86AF100121222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/QA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7566059124B86AF100121222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/QA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		756605A124B86AFD00121222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/RC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.rc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		756605A224B86AFD00121222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/RC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.rc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		756605B924B8766A00121222 /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756605B624B875AD00121222 /* GiftsForEveryoneQA.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = QA;
+		};
+		756605BA24B8766A00121222 /* QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/Debug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = QA;
+		};
+		756605BB24B8766A00121222 /* QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/QA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = QA;
+		};
+		756605BC24B8766A00121222 /* QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/RC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.rc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = QA;
+		};
+		756605BD24B8766A00121222 /* QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/Release/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone;
+				PRODUCT_NAME = GiftsForEveryone;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = QA;
+		};
+		756605BE24B8766A00121222 /* QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.GiftsForEveryoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiftsForEveryone.app/GiftsForEveryone";
+			};
+			name = QA;
+		};
+		756605BF24B8766F00121222 /* RC */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756605B724B875B600121222 /* GiftsForEveryoneRC.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = RC;
+		};
+		756605C024B8766F00121222 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/Debug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = RC;
+		};
+		756605C124B8766F00121222 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/QA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = RC;
+		};
+		756605C224B8766F00121222 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/RC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone.rc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = RC;
+		};
+		756605C324B8766F00121222 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryone/GiftsForEveryone/Plist/Release/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.giftsforeveryone;
+				PRODUCT_NAME = GiftsForEveryone;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = RC;
+		};
+		756605C424B8766F00121222 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V97M73FC9;
+				INFOPLIST_FILE = GiftsForEveryoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.golban.GiftsForEveryoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiftsForEveryone.app/GiftsForEveryone";
+			};
+			name = RC;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,15 +1162,19 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7566053D24B864C400121222 /* Debug */,
+				756605B924B8766A00121222 /* QA */,
+				756605BF24B8766F00121222 /* RC */,
 				7566053E24B864C400121222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7566053F24B864C400121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone" */ = {
+		7566053F24B864C400121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-Debug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7566054024B864C400121222 /* Debug */,
+				756605BA24B8766A00121222 /* QA */,
+				756605C024B8766F00121222 /* RC */,
 				7566054124B864C400121222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -463,7 +1184,42 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7566054324B864C400121222 /* Debug */,
+				756605BE24B8766A00121222 /* QA */,
+				756605C424B8766F00121222 /* RC */,
 				7566054424B864C400121222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7566054F24B868B900121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7566055024B868B900121222 /* Debug */,
+				756605BD24B8766A00121222 /* QA */,
+				756605C324B8766F00121222 /* RC */,
+				7566055124B868B900121222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7566058F24B86AF100121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-QA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7566059024B86AF100121222 /* Debug */,
+				756605BB24B8766A00121222 /* QA */,
+				756605C124B8766F00121222 /* RC */,
+				7566059124B86AF100121222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756605A024B86AFD00121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-RC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756605A124B86AFD00121222 /* Debug */,
+				756605BC24B8766A00121222 /* QA */,
+				756605C224B8766F00121222 /* RC */,
+				756605A224B86AFD00121222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
