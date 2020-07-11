@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GiftsForEveryone
+
+  Created by Andrei on 7/11/20.
+  Copyright © 2020 Andrei Golban. All rights reserved.
+*/
+
+"birthday" = "Birthday";
+"sex" = "Sex";
+"current.date" = "Current date";
+"randomize.input" = "Randomize input";
+"receive" = "Receive";
+"male" = "Male";
+"female" = "Female";
