@@ -23,20 +23,20 @@ final class InputViewController: UIViewController {
     private lazy var birthdayDateTxtField: TextField = {
         let textField = TextField()
         textField.placeholder = NSLocalizedString("birthday", comment: "")
-        textField.inputAccessoryView = DatePicker()
+        textField.inputView = DatePicker()
         return textField
     }()
     
     private lazy var sexTxtField: TextField = {
         let textField = TextField()
-        textField.inputAccessoryView = SexPicker()
+        textField.inputView = SexPicker()
         return textField
     }()
     
     private lazy var currentDateTxtField: TextField = {
         let textField = TextField()
         textField.placeholder = NSLocalizedString("current.date", comment: "")
-        textField.inputAccessoryView = DatePicker()
+        textField.inputView = DatePicker()
         return textField
     }()
     
@@ -110,6 +110,7 @@ final class InputViewController: UIViewController {
     
     private func configureUI() {
         view.backgroundColor = .white
+        title = NSLocalizedString("input.title", comment: "")
     }
     
     @objc private func randomizeInputBtnPressed(_ button: UIButton) {

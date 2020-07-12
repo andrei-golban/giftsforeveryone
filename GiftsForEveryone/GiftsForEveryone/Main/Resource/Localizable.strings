@@ -6,6 +6,10 @@
   Copyright © 2020 Andrei Golban. All rights reserved.
 */
 
+// Navigation
+"input.title" = "Input";
+"result.title" = "Results";
+
 "birthday" = "Birthday";
 "sex" = "Sex";
 "current.date" = "Current date";

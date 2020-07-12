@@ -1,5 +1,5 @@
 //
-//  AppNavController.swift
+//  NavController.swift
 //  GiftsForEveryone
 //
 //  Created by Andrei on 7/10/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class AppNavController: UINavigationController {
+final class NavController: UINavigationController {
     
     init() {
         super.init(nibName: nil, bundle: nil)

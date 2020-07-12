@@ -1,14 +1,14 @@
 //
-//  DatePicker.swift
+//  Label.swift
 //  GiftsForEveryone
 //
-//  Created by Andrei on 7/10/20.
+//  Created by Andrei on 7/12/20.
 //  Copyright © 2020 Andrei Golban. All rights reserved.
 //
 
 import UIKit
 
-final class DatePicker: UIDatePicker {
+final class Label: UILabel {
     
     init() {
         super.init(frame: .zero)
@@ -22,6 +22,5 @@ final class DatePicker: UIDatePicker {
     
     private func configureUI() {
         translatesAutoresizingMaskIntoConstraints = false
-        datePickerMode = .date
     }
 }

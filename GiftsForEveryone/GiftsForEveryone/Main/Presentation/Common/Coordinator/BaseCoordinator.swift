@@ -36,7 +36,7 @@ class BaseCoordinator: Coordinator {
     
     var childCoordinators = [String : Coordinator]()
     
-    var navigationController: UINavigationController = AppNavController()
+    var navigationController: UINavigationController = NavController()
     
     func start() {
         fatalError("start method has not been implemented")

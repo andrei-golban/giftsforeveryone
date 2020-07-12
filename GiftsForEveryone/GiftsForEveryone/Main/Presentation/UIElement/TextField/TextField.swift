@@ -20,6 +20,14 @@ final class TextField: UITextField {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func textRect(forBounds bounds: CGRect) -> CGRect {
+        return bounds.insetBy(dx: 10, dy: 0)
+    }
+    
+    override func editingRect(forBounds bounds: CGRect) -> CGRect {
+        return bounds.insetBy(dx: 10, dy: 0)
+    }
+    
     private func configureUI() {
         translatesAutoresizingMaskIntoConstraints = false
         layer.borderColor = UIColor.black.cgColor
