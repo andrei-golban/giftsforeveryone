@@ -19,10 +19,10 @@
 		7508C83224B886B900B2D501 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83024B886B900B2D501 /* InputViewController.swift */; };
 		7508C83324B886B900B2D501 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83024B886B900B2D501 /* InputViewController.swift */; };
 		7508C83424B886B900B2D501 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83024B886B900B2D501 /* InputViewController.swift */; };
-		7508C83C24B8878000B2D501 /* AppNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83B24B8878000B2D501 /* AppNavController.swift */; };
-		7508C83D24B8878000B2D501 /* AppNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83B24B8878000B2D501 /* AppNavController.swift */; };
-		7508C83E24B8878000B2D501 /* AppNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83B24B8878000B2D501 /* AppNavController.swift */; };
-		7508C83F24B8878000B2D501 /* AppNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83B24B8878000B2D501 /* AppNavController.swift */; };
+		7508C83C24B8878000B2D501 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83B24B8878000B2D501 /* NavController.swift */; };
+		7508C83D24B8878000B2D501 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83B24B8878000B2D501 /* NavController.swift */; };
+		7508C83E24B8878000B2D501 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83B24B8878000B2D501 /* NavController.swift */; };
+		7508C83F24B8878000B2D501 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C83B24B8878000B2D501 /* NavController.swift */; };
 		7566052424B864C300121222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052324B864C300121222 /* AppDelegate.swift */; };
 		7566052624B864C300121222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052524B864C300121222 /* SceneDelegate.swift */; };
 		7566052824B864C300121222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052724B864C300121222 /* ViewController.swift */; };
@@ -92,6 +92,18 @@
 		758B44B224BA5D7C00AAB469 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44B024BA5D7B00AAB469 /* TextField.swift */; };
 		758B44B324BA5D7C00AAB469 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44B024BA5D7B00AAB469 /* TextField.swift */; };
 		758B44B424BA5D7C00AAB469 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44B024BA5D7B00AAB469 /* TextField.swift */; };
+		758B44B924BB0BAC00AAB469 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44B824BB0BAC00AAB469 /* ResultViewController.swift */; };
+		758B44BA24BB0BAC00AAB469 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44B824BB0BAC00AAB469 /* ResultViewController.swift */; };
+		758B44BB24BB0BAC00AAB469 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44B824BB0BAC00AAB469 /* ResultViewController.swift */; };
+		758B44BC24BB0BAC00AAB469 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44B824BB0BAC00AAB469 /* ResultViewController.swift */; };
+		758B44BE24BB0BB800AAB469 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44BD24BB0BB800AAB469 /* ResultViewModel.swift */; };
+		758B44BF24BB0BB800AAB469 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44BD24BB0BB800AAB469 /* ResultViewModel.swift */; };
+		758B44C024BB0BB800AAB469 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44BD24BB0BB800AAB469 /* ResultViewModel.swift */; };
+		758B44C124BB0BB800AAB469 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44BD24BB0BB800AAB469 /* ResultViewModel.swift */; };
+		758B44C424BB1FC900AAB469 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44C324BB1FC900AAB469 /* Label.swift */; };
+		758B44C524BB1FC900AAB469 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44C324BB1FC900AAB469 /* Label.swift */; };
+		758B44C624BB1FC900AAB469 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44C324BB1FC900AAB469 /* Label.swift */; };
+		758B44C724BB1FC900AAB469 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44C324BB1FC900AAB469 /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,7 +122,7 @@
 		7508C82524B884EE00B2D501 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		7508C82B24B8851500B2D501 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		7508C83024B886B900B2D501 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
-		7508C83B24B8878000B2D501 /* AppNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavController.swift; sourceTree = "<group>"; };
+		7508C83B24B8878000B2D501 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		7566052024B864C300121222 /* GiftsForEveryone-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7566052324B864C300121222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7566052524B864C300121222 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +153,9 @@
 		758B44A124BA28E800AAB469 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		758B44AB24BA5CB900AAB469 /* SexPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexPicker.swift; sourceTree = "<group>"; };
 		758B44B024BA5D7B00AAB469 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		758B44B824BB0BAC00AAB469 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		758B44BD24BB0BB800AAB469 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		758B44C324BB1FC900AAB469 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,8 +280,9 @@
 		7508C81C24B8810000B2D501 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				7508C82124B8842600B2D501 /* Input */,
 				7508C82024B8841700B2D501 /* Splash */,
+				7508C82124B8842600B2D501 /* Input */,
+				758B44B524BB0B6800AAB469 /* Result */,
 				7508C82524B884EE00B2D501 /* AppCoordinator.swift */,
 			);
 			path = Screen;
@@ -275,6 +291,7 @@
 		7508C81D24B8811000B2D501 /* UIElement */ = {
 			isa = PBXGroup;
 			children = (
+				758B44C224BB0FED00AAB469 /* Label */,
 				758B449B24BA211600AAB469 /* TextField */,
 				7508C83524B8873100B2D501 /* Navigation */,
 				757ABFCB24B88C1700F24ACB /* Button */,
@@ -343,7 +360,7 @@
 		7508C83524B8873100B2D501 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				7508C83B24B8878000B2D501 /* AppNavController.swift */,
+				7508C83B24B8878000B2D501 /* NavController.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -526,6 +543,39 @@
 				758B44B024BA5D7B00AAB469 /* TextField.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		758B44B524BB0B6800AAB469 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				758B44B624BB0B7D00AAB469 /* View */,
+				758B44B724BB0B8300AAB469 /* ViewModel */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		758B44B624BB0B7D00AAB469 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				758B44B824BB0BAC00AAB469 /* ResultViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		758B44B724BB0B8300AAB469 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				758B44BD24BB0BB800AAB469 /* ResultViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		758B44C224BB0FED00AAB469 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				758B44C324BB1FC900AAB469 /* Label.swift */,
+			);
+			path = Label;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -734,13 +784,16 @@
 				758B44AC24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B124BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82C24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
+				758B44B924BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566052424B864C300121222 /* AppDelegate.swift in Sources */,
-				7508C83C24B8878000B2D501 /* AppNavController.swift in Sources */,
+				7508C83C24B8878000B2D501 /* NavController.swift in Sources */,
 				7508C83124B886B900B2D501 /* InputViewController.swift in Sources */,
 				7508C82624B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449124BA0AF700AAB469 /* Button.swift in Sources */,
+				758B44BE24BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				757ABFCE24B88C9200F24ACB /* DatePicker.swift in Sources */,
 				756605B124B8743400121222 /* BuildConfig.swift in Sources */,
+				758B44C424BB1FC900AAB469 /* Label.swift in Sources */,
 				7566052624B864C300121222 /* SceneDelegate.swift in Sources */,
 				757ABFC724B88A3200F24ACB /* InputViewModel.swift in Sources */,
 			);
@@ -763,13 +816,16 @@
 				758B44AF24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B424BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82F24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
+				758B44BC24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566054824B868B900121222 /* AppDelegate.swift in Sources */,
-				7508C83F24B8878000B2D501 /* AppNavController.swift in Sources */,
+				7508C83F24B8878000B2D501 /* NavController.swift in Sources */,
 				7508C83424B886B900B2D501 /* InputViewController.swift in Sources */,
 				7508C82924B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449424BA0AF700AAB469 /* Button.swift in Sources */,
+				758B44C124BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				757ABFD124B88C9200F24ACB /* DatePicker.swift in Sources */,
 				756605B424B8743400121222 /* BuildConfig.swift in Sources */,
+				758B44C724BB1FC900AAB469 /* Label.swift in Sources */,
 				7566054924B868B900121222 /* SceneDelegate.swift in Sources */,
 				757ABFCA24B88A3200F24ACB /* InputViewModel.swift in Sources */,
 			);
@@ -784,13 +840,16 @@
 				758B44AD24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B224BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82D24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
+				758B44BA24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566058624B86AF100121222 /* AppDelegate.swift in Sources */,
-				7508C83D24B8878000B2D501 /* AppNavController.swift in Sources */,
+				7508C83D24B8878000B2D501 /* NavController.swift in Sources */,
 				7508C83224B886B900B2D501 /* InputViewController.swift in Sources */,
 				7508C82724B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449224BA0AF700AAB469 /* Button.swift in Sources */,
+				758B44BF24BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				757ABFCF24B88C9200F24ACB /* DatePicker.swift in Sources */,
 				756605B224B8743400121222 /* BuildConfig.swift in Sources */,
+				758B44C524BB1FC900AAB469 /* Label.swift in Sources */,
 				7566058724B86AF100121222 /* SceneDelegate.swift in Sources */,
 				757ABFC824B88A3200F24ACB /* InputViewModel.swift in Sources */,
 			);
@@ -805,13 +864,16 @@
 				758B44AE24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B324BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82E24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
+				758B44BB24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566059724B86AFD00121222 /* AppDelegate.swift in Sources */,
-				7508C83E24B8878000B2D501 /* AppNavController.swift in Sources */,
+				7508C83E24B8878000B2D501 /* NavController.swift in Sources */,
 				7508C83324B886B900B2D501 /* InputViewController.swift in Sources */,
 				7508C82824B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449324BA0AF700AAB469 /* Button.swift in Sources */,
+				758B44C024BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				757ABFD024B88C9200F24ACB /* DatePicker.swift in Sources */,
 				756605B324B8743400121222 /* BuildConfig.swift in Sources */,
+				758B44C624BB1FC900AAB469 /* Label.swift in Sources */,
 				7566059824B86AFD00121222 /* SceneDelegate.swift in Sources */,
 				757ABFC924B88A3200F24ACB /* InputViewModel.swift in Sources */,
 			);

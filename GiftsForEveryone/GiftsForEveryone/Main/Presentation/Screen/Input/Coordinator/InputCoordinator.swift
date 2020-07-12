@@ -16,10 +16,16 @@ final class InputCoordinator: BaseCoordinator {
         
         viewController.coordinator = self
         
+        navigationController.setNavigationBarHidden(false, animated: false)
         navigationController.setViewControllers([viewController], animated: true)
     }
     
     func showResultScreen() {
+        let viewModel = ResultViewModel()
+        let viewController = ResultViewController(viewModel: viewModel)
         
+        viewController.coordinator = self
+        
+        navigationController.pushViewController(viewController, animated: true)
     }
 }
