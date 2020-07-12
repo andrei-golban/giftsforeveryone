@@ -1,5 +1,5 @@
 //
-//  NetworkTask.swift
+//  RepositoryTask.swift
 //  GiftsForEveryone
 //
 //  Created by Andrei on 7/12/20.
@@ -8,18 +8,14 @@
 
 import Foundation
 
-final class NetworkTask: Cancelable {
+final class RepositoryTask: Cancelable {
     
-    var task: URLSessionTask? = nil
+    var task: Cancelable? = nil
     
     var isCanceled: Bool = false
     
     func cancel() {
         task?.cancel()
         isCanceled = true
-    }
-    
-    func resume() {
-        task?.resume()
     }
 }
