@@ -10,6 +10,7 @@
 "input.title" = "Input";
 "result.title" = "Results";
 
+// Screen
 "birthday" = "Birthday";
 "sex" = "Sex";
 "current.date" = "Current date";
@@ -17,3 +18,8 @@
 "receive" = "Receive";
 "male" = "Male";
 "female" = "Female";
+
+// Error
+"no.internet.connection" = "No internet connection";
+"bad.data.received" = "Bad data received";
+"bad.response" = "Bad response";
