@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct ErrorDataModel: Decodable, Error {
+struct ErrorDataModel: Decodable {
     
     let error: String
 }

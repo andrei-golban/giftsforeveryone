@@ -140,6 +140,34 @@
 		758B44F624BB36FF00AAB469 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44F424BB36FF00AAB469 /* DomainError.swift */; };
 		758B44F724BB36FF00AAB469 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44F424BB36FF00AAB469 /* DomainError.swift */; };
 		758B44F824BB36FF00AAB469 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44F424BB36FF00AAB469 /* DomainError.swift */; };
+		758B44FA24BB478F00AAB469 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44F924BB478F00AAB469 /* UserRepository.swift */; };
+		758B44FB24BB478F00AAB469 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44F924BB478F00AAB469 /* UserRepository.swift */; };
+		758B44FC24BB478F00AAB469 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44F924BB478F00AAB469 /* UserRepository.swift */; };
+		758B44FD24BB478F00AAB469 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44F924BB478F00AAB469 /* UserRepository.swift */; };
+		758B44FF24BB47FB00AAB469 /* UserDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44FE24BB47FB00AAB469 /* UserDomainModel.swift */; };
+		758B450024BB47FB00AAB469 /* UserDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44FE24BB47FB00AAB469 /* UserDomainModel.swift */; };
+		758B450124BB47FB00AAB469 /* UserDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44FE24BB47FB00AAB469 /* UserDomainModel.swift */; };
+		758B450224BB47FB00AAB469 /* UserDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B44FE24BB47FB00AAB469 /* UserDomainModel.swift */; };
+		758B450924BB493500AAB469 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B450824BB493500AAB469 /* Gender.swift */; };
+		758B450A24BB493500AAB469 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B450824BB493500AAB469 /* Gender.swift */; };
+		758B450B24BB493500AAB469 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B450824BB493500AAB469 /* Gender.swift */; };
+		758B450C24BB493500AAB469 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B450824BB493500AAB469 /* Gender.swift */; };
+		758B450E24BB498200AAB469 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B450D24BB498200AAB469 /* UserDataModel.swift */; };
+		758B450F24BB498200AAB469 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B450D24BB498200AAB469 /* UserDataModel.swift */; };
+		758B451024BB498200AAB469 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B450D24BB498200AAB469 /* UserDataModel.swift */; };
+		758B451124BB498200AAB469 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B450D24BB498200AAB469 /* UserDataModel.swift */; };
+		758B451324BB49F200AAB469 /* DefaultUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451224BB49F200AAB469 /* DefaultUserRepository.swift */; };
+		758B451424BB49F200AAB469 /* DefaultUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451224BB49F200AAB469 /* DefaultUserRepository.swift */; };
+		758B451524BB49F200AAB469 /* DefaultUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451224BB49F200AAB469 /* DefaultUserRepository.swift */; };
+		758B451624BB49F200AAB469 /* DefaultUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451224BB49F200AAB469 /* DefaultUserRepository.swift */; };
+		758B451824BB4CA100AAB469 /* RepositoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451724BB4CA100AAB469 /* RepositoryTask.swift */; };
+		758B451924BB4CA100AAB469 /* RepositoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451724BB4CA100AAB469 /* RepositoryTask.swift */; };
+		758B451A24BB4CA100AAB469 /* RepositoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451724BB4CA100AAB469 /* RepositoryTask.swift */; };
+		758B451B24BB4CA100AAB469 /* RepositoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451724BB4CA100AAB469 /* RepositoryTask.swift */; };
+		758B451E24BB4DB600AAB469 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451D24BB4DB600AAB469 /* UserResponse.swift */; };
+		758B451F24BB4DB600AAB469 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451D24BB4DB600AAB469 /* UserResponse.swift */; };
+		758B452024BB4DB600AAB469 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451D24BB4DB600AAB469 /* UserResponse.swift */; };
+		758B452124BB4DB600AAB469 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451D24BB4DB600AAB469 /* UserResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -201,6 +229,13 @@
 		758B44E924BB367800AAB469 /* ErrorDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDataModel.swift; sourceTree = "<group>"; };
 		758B44EE24BB36A600AAB469 /* ErrorDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDomainModel.swift; sourceTree = "<group>"; };
 		758B44F424BB36FF00AAB469 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
+		758B44F924BB478F00AAB469 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		758B44FE24BB47FB00AAB469 /* UserDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDomainModel.swift; sourceTree = "<group>"; };
+		758B450824BB493500AAB469 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		758B450D24BB498200AAB469 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		758B451224BB49F200AAB469 /* DefaultUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUserRepository.swift; sourceTree = "<group>"; };
+		758B451724BB4CA100AAB469 /* RepositoryTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTask.swift; sourceTree = "<group>"; };
+		758B451D24BB4DB600AAB469 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +313,7 @@
 		7508C81524B87DEE00B2D501 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				758B450824BB493500AAB469 /* Gender.swift */,
 				758B44D424BB29EB00AAB469 /* Cancelable.swift */,
 			);
 			path = Common;
@@ -286,7 +322,9 @@
 		7508C81624B87F2B00B2D501 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				758B451C24BB4D9F00AAB469 /* Response */,
 				758B44E924BB367800AAB469 /* ErrorDataModel.swift */,
+				758B450D24BB498200AAB469 /* UserDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -304,6 +342,8 @@
 		7508C81824B87F3800B2D501 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				758B451224BB49F200AAB469 /* DefaultUserRepository.swift */,
+				758B451724BB4CA100AAB469 /* RepositoryTask.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -312,6 +352,7 @@
 			isa = PBXGroup;
 			children = (
 				758B44EE24BB36A600AAB469 /* ErrorDomainModel.swift */,
+				758B44FE24BB47FB00AAB469 /* UserDomainModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,6 +360,7 @@
 		7508C81A24B880DF00B2D501 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				758B44F924BB478F00AAB469 /* UserRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -664,6 +706,14 @@
 			path = Enum;
 			sourceTree = "<group>";
 		};
+		758B451C24BB4D9F00AAB469 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				758B451D24BB4DB600AAB469 /* UserResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -867,23 +917,29 @@
 			files = (
 				757ABFC224B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566052824B864C300121222 /* ViewController.swift in Sources */,
+				758B451824BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
 				758B44F524BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AC24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B124BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82C24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
 				758B44CB24BB291000AAB469 /* NetworkClient.swift in Sources */,
 				758B44DF24BB2E9900AAB469 /* UserService.swift in Sources */,
+				758B450924BB493500AAB469 /* Gender.swift in Sources */,
 				758B44B924BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566052424B864C300121222 /* AppDelegate.swift in Sources */,
 				7508C83C24B8878000B2D501 /* NavController.swift in Sources */,
+				758B450E24BB498200AAB469 /* UserDataModel.swift in Sources */,
+				758B44FA24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83124B886B900B2D501 /* InputViewController.swift in Sources */,
 				7508C82624B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449124BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44BE24BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				758B44D524BB29EB00AAB469 /* Cancelable.swift in Sources */,
 				757ABFCE24B88C9200F24ACB /* DatePicker.swift in Sources */,
+				758B451324BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44EF24BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
 				756605B124B8743400121222 /* BuildConfig.swift in Sources */,
+				758B44FF24BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
 				758B44DA24BB2A3100AAB469 /* NetworkTask.swift in Sources */,
 				758B44D024BB299200AAB469 /* NetworkService.swift in Sources */,
 				758B44C424BB1FC900AAB469 /* Label.swift in Sources */,
@@ -891,6 +947,7 @@
 				758B44E524BB362400AAB469 /* DataError.swift in Sources */,
 				7566052624B864C300121222 /* SceneDelegate.swift in Sources */,
 				757ABFC724B88A3200F24ACB /* InputViewModel.swift in Sources */,
+				758B451E24BB4DB600AAB469 /* UserResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -908,23 +965,29 @@
 			files = (
 				757ABFC524B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566054724B868B900121222 /* ViewController.swift in Sources */,
+				758B451B24BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
 				758B44F824BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AF24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B424BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82F24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
 				758B44CE24BB291000AAB469 /* NetworkClient.swift in Sources */,
 				758B44E224BB2E9900AAB469 /* UserService.swift in Sources */,
+				758B450C24BB493500AAB469 /* Gender.swift in Sources */,
 				758B44BC24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566054824B868B900121222 /* AppDelegate.swift in Sources */,
 				7508C83F24B8878000B2D501 /* NavController.swift in Sources */,
+				758B451124BB498200AAB469 /* UserDataModel.swift in Sources */,
+				758B44FD24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83424B886B900B2D501 /* InputViewController.swift in Sources */,
 				7508C82924B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449424BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44C124BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				758B44D824BB29EB00AAB469 /* Cancelable.swift in Sources */,
 				757ABFD124B88C9200F24ACB /* DatePicker.swift in Sources */,
+				758B451624BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44F224BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
 				756605B424B8743400121222 /* BuildConfig.swift in Sources */,
+				758B450224BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
 				758B44DD24BB2A3100AAB469 /* NetworkTask.swift in Sources */,
 				758B44D324BB299200AAB469 /* NetworkService.swift in Sources */,
 				758B44C724BB1FC900AAB469 /* Label.swift in Sources */,
@@ -932,6 +995,7 @@
 				758B44E824BB362400AAB469 /* DataError.swift in Sources */,
 				7566054924B868B900121222 /* SceneDelegate.swift in Sources */,
 				757ABFCA24B88A3200F24ACB /* InputViewModel.swift in Sources */,
+				758B452124BB4DB600AAB469 /* UserResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,23 +1005,29 @@
 			files = (
 				757ABFC324B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566058524B86AF100121222 /* ViewController.swift in Sources */,
+				758B451924BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
 				758B44F624BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AD24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B224BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82D24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
 				758B44CC24BB291000AAB469 /* NetworkClient.swift in Sources */,
 				758B44E024BB2E9900AAB469 /* UserService.swift in Sources */,
+				758B450A24BB493500AAB469 /* Gender.swift in Sources */,
 				758B44BA24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566058624B86AF100121222 /* AppDelegate.swift in Sources */,
 				7508C83D24B8878000B2D501 /* NavController.swift in Sources */,
+				758B450F24BB498200AAB469 /* UserDataModel.swift in Sources */,
+				758B44FB24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83224B886B900B2D501 /* InputViewController.swift in Sources */,
 				7508C82724B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449224BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44BF24BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				758B44D624BB29EB00AAB469 /* Cancelable.swift in Sources */,
 				757ABFCF24B88C9200F24ACB /* DatePicker.swift in Sources */,
+				758B451424BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44F024BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
 				756605B224B8743400121222 /* BuildConfig.swift in Sources */,
+				758B450024BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
 				758B44DB24BB2A3100AAB469 /* NetworkTask.swift in Sources */,
 				758B44D124BB299200AAB469 /* NetworkService.swift in Sources */,
 				758B44C524BB1FC900AAB469 /* Label.swift in Sources */,
@@ -965,6 +1035,7 @@
 				758B44E624BB362400AAB469 /* DataError.swift in Sources */,
 				7566058724B86AF100121222 /* SceneDelegate.swift in Sources */,
 				757ABFC824B88A3200F24ACB /* InputViewModel.swift in Sources */,
+				758B451F24BB4DB600AAB469 /* UserResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -974,23 +1045,29 @@
 			files = (
 				757ABFC424B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566059624B86AFD00121222 /* ViewController.swift in Sources */,
+				758B451A24BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
 				758B44F724BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AE24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B324BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82E24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
 				758B44CD24BB291000AAB469 /* NetworkClient.swift in Sources */,
 				758B44E124BB2E9900AAB469 /* UserService.swift in Sources */,
+				758B450B24BB493500AAB469 /* Gender.swift in Sources */,
 				758B44BB24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566059724B86AFD00121222 /* AppDelegate.swift in Sources */,
 				7508C83E24B8878000B2D501 /* NavController.swift in Sources */,
+				758B451024BB498200AAB469 /* UserDataModel.swift in Sources */,
+				758B44FC24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83324B886B900B2D501 /* InputViewController.swift in Sources */,
 				7508C82824B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449324BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44C024BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				758B44D724BB29EB00AAB469 /* Cancelable.swift in Sources */,
 				757ABFD024B88C9200F24ACB /* DatePicker.swift in Sources */,
+				758B451524BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44F124BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
 				756605B324B8743400121222 /* BuildConfig.swift in Sources */,
+				758B450124BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
 				758B44DC24BB2A3100AAB469 /* NetworkTask.swift in Sources */,
 				758B44D224BB299200AAB469 /* NetworkService.swift in Sources */,
 				758B44C624BB1FC900AAB469 /* Label.swift in Sources */,
@@ -998,6 +1075,7 @@
 				758B44E724BB362400AAB469 /* DataError.swift in Sources */,
 				7566059824B86AFD00121222 /* SceneDelegate.swift in Sources */,
 				757ABFC924B88A3200F24ACB /* InputViewModel.swift in Sources */,
+				758B452024BB4DB600AAB469 /* UserResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
