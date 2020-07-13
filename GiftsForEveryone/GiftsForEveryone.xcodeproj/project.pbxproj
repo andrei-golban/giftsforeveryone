@@ -168,6 +168,50 @@
 		758B451F24BB4DB600AAB469 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451D24BB4DB600AAB469 /* UserResponse.swift */; };
 		758B452024BB4DB600AAB469 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451D24BB4DB600AAB469 /* UserResponse.swift */; };
 		758B452124BB4DB600AAB469 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B451D24BB4DB600AAB469 /* UserResponse.swift */; };
+		758B452424BB523900AAB469 /* GetUserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B452324BB523900AAB469 /* GetUserUseCase.swift */; };
+		758B452524BB523900AAB469 /* GetUserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B452324BB523900AAB469 /* GetUserUseCase.swift */; };
+		758B452624BB523900AAB469 /* GetUserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B452324BB523900AAB469 /* GetUserUseCase.swift */; };
+		758B452724BB523900AAB469 /* GetUserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B452324BB523900AAB469 /* GetUserUseCase.swift */; };
+		758B452A24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B452924BB52FB00AAB469 /* GetGiftUseCase.swift */; };
+		758B452B24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B452924BB52FB00AAB469 /* GetGiftUseCase.swift */; };
+		758B452C24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B452924BB52FB00AAB469 /* GetGiftUseCase.swift */; };
+		758B452D24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B452924BB52FB00AAB469 /* GetGiftUseCase.swift */; };
+		758B454E24BB5DA000AAB469 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B454D24BB5DA000AAB469 /* Gift.swift */; };
+		758B454F24BB5DA000AAB469 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B454D24BB5DA000AAB469 /* Gift.swift */; };
+		758B455024BB5DA000AAB469 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B454D24BB5DA000AAB469 /* Gift.swift */; };
+		758B455124BB5DA000AAB469 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B454D24BB5DA000AAB469 /* Gift.swift */; };
+		758B455324BB5DBD00AAB469 /* Lego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455224BB5DBC00AAB469 /* Lego.swift */; };
+		758B455424BB5DBD00AAB469 /* Lego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455224BB5DBC00AAB469 /* Lego.swift */; };
+		758B455524BB5DBD00AAB469 /* Lego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455224BB5DBC00AAB469 /* Lego.swift */; };
+		758B455624BB5DBD00AAB469 /* Lego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455224BB5DBC00AAB469 /* Lego.swift */; };
+		758B455824BB5DD400AAB469 /* Chocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455724BB5DD400AAB469 /* Chocolate.swift */; };
+		758B455924BB5DD400AAB469 /* Chocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455724BB5DD400AAB469 /* Chocolate.swift */; };
+		758B455A24BB5DD400AAB469 /* Chocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455724BB5DD400AAB469 /* Chocolate.swift */; };
+		758B455B24BB5DD400AAB469 /* Chocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455724BB5DD400AAB469 /* Chocolate.swift */; };
+		758B455D24BB5DED00AAB469 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455C24BB5DED00AAB469 /* Orange.swift */; };
+		758B455E24BB5DED00AAB469 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455C24BB5DED00AAB469 /* Orange.swift */; };
+		758B455F24BB5DED00AAB469 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455C24BB5DED00AAB469 /* Orange.swift */; };
+		758B456024BB5DED00AAB469 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B455C24BB5DED00AAB469 /* Orange.swift */; };
+		758B456224BB5DFE00AAB469 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456124BB5DFE00AAB469 /* Book.swift */; };
+		758B456324BB5DFE00AAB469 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456124BB5DFE00AAB469 /* Book.swift */; };
+		758B456424BB5DFE00AAB469 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456124BB5DFE00AAB469 /* Book.swift */; };
+		758B456524BB5DFE00AAB469 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456124BB5DFE00AAB469 /* Book.swift */; };
+		758B456724BB5E0E00AAB469 /* Socks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456624BB5E0E00AAB469 /* Socks.swift */; };
+		758B456824BB5E0E00AAB469 /* Socks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456624BB5E0E00AAB469 /* Socks.swift */; };
+		758B456924BB5E0E00AAB469 /* Socks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456624BB5E0E00AAB469 /* Socks.swift */; };
+		758B456A24BB5E0E00AAB469 /* Socks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456624BB5E0E00AAB469 /* Socks.swift */; };
+		758B456C24BB5E1F00AAB469 /* Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456B24BB5E1F00AAB469 /* Flowers.swift */; };
+		758B456D24BB5E1F00AAB469 /* Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456B24BB5E1F00AAB469 /* Flowers.swift */; };
+		758B456E24BB5E1F00AAB469 /* Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456B24BB5E1F00AAB469 /* Flowers.swift */; };
+		758B456F24BB5E1F00AAB469 /* Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B456B24BB5E1F00AAB469 /* Flowers.swift */; };
+		759B675F24BC5C0800F8B7D4 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B675E24BC5C0800F8B7D4 /* Date+Extension.swift */; };
+		759B676024BC5C0800F8B7D4 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B675E24BC5C0800F8B7D4 /* Date+Extension.swift */; };
+		759B676124BC5C0800F8B7D4 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B675E24BC5C0800F8B7D4 /* Date+Extension.swift */; };
+		759B676224BC5C0800F8B7D4 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B675E24BC5C0800F8B7D4 /* Date+Extension.swift */; };
+		75F6FC5B24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
+		75F6FC5C24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
+		75F6FC5D24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
+		75F6FC5E24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,6 +280,17 @@
 		758B451224BB49F200AAB469 /* DefaultUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUserRepository.swift; sourceTree = "<group>"; };
 		758B451724BB4CA100AAB469 /* RepositoryTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTask.swift; sourceTree = "<group>"; };
 		758B451D24BB4DB600AAB469 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		758B452324BB523900AAB469 /* GetUserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserUseCase.swift; sourceTree = "<group>"; };
+		758B452924BB52FB00AAB469 /* GetGiftUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGiftUseCase.swift; sourceTree = "<group>"; };
+		758B454D24BB5DA000AAB469 /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
+		758B455224BB5DBC00AAB469 /* Lego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lego.swift; sourceTree = "<group>"; };
+		758B455724BB5DD400AAB469 /* Chocolate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chocolate.swift; sourceTree = "<group>"; };
+		758B455C24BB5DED00AAB469 /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
+		758B456124BB5DFE00AAB469 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		758B456624BB5E0E00AAB469 /* Socks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socks.swift; sourceTree = "<group>"; };
+		758B456B24BB5E1F00AAB469 /* Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flowers.swift; sourceTree = "<group>"; };
+		759B675E24BC5C0800F8B7D4 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		75F6FC5A24BB6607004F595E /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +346,7 @@
 		7508C81324B87DDB00B2D501 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				759B675D24BC5BF500F8B7D4 /* Extension */,
 				758B44F324BB36F500AAB469 /* Enum */,
 				7508C81924B880DA00B2D501 /* Model */,
 				7508C81A24B880DF00B2D501 /* Repository */,
@@ -313,7 +369,8 @@
 		7508C81524B87DEE00B2D501 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				758B450824BB493500AAB469 /* Gender.swift */,
+				758B454A24BB5D6100AAB469 /* Enum */,
+				758B454B24BB5D6A00AAB469 /* Model */,
 				758B44D424BB29EB00AAB469 /* Cancelable.swift */,
 			);
 			path = Common;
@@ -368,6 +425,8 @@
 		7508C81B24B880E500B2D501 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				758B452824BB52E400AAB469 /* Gift */,
+				758B452224BB520000AAB469 /* User */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -592,6 +651,7 @@
 				7566052C24B864C400121222 /* Images.xcassets */,
 				756605AA24B873E600121222 /* Colors.xcassets */,
 				758B44A124BA28E800AAB469 /* Localizable.strings */,
+				75F6FC5A24BB6607004F595E /* Localizable.stringsdict */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -712,6 +772,60 @@
 				758B451D24BB4DB600AAB469 /* UserResponse.swift */,
 			);
 			path = Response;
+			sourceTree = "<group>";
+		};
+		758B452224BB520000AAB469 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				758B452324BB523900AAB469 /* GetUserUseCase.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		758B452824BB52E400AAB469 /* Gift */ = {
+			isa = PBXGroup;
+			children = (
+				758B452924BB52FB00AAB469 /* GetGiftUseCase.swift */,
+			);
+			path = Gift;
+			sourceTree = "<group>";
+		};
+		758B454A24BB5D6100AAB469 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				758B450824BB493500AAB469 /* Gender.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		758B454B24BB5D6A00AAB469 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				758B457024BB5E2F00AAB469 /* Gifts */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		758B457024BB5E2F00AAB469 /* Gifts */ = {
+			isa = PBXGroup;
+			children = (
+				758B454D24BB5DA000AAB469 /* Gift.swift */,
+				758B455224BB5DBC00AAB469 /* Lego.swift */,
+				758B455724BB5DD400AAB469 /* Chocolate.swift */,
+				758B455C24BB5DED00AAB469 /* Orange.swift */,
+				758B456124BB5DFE00AAB469 /* Book.swift */,
+				758B456624BB5E0E00AAB469 /* Socks.swift */,
+				758B456B24BB5E1F00AAB469 /* Flowers.swift */,
+			);
+			path = Gifts;
+			sourceTree = "<group>";
+		};
+		759B675D24BC5BF500F8B7D4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				759B675E24BC5C0800F8B7D4 /* Date+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -854,6 +968,7 @@
 				7566055924B8696C00121222 /* Images.xcassets in Resources */,
 				758B44A224BA28E800AAB469 /* Localizable.strings in Resources */,
 				756605AB24B873E600121222 /* Colors.xcassets in Resources */,
+				75F6FC5B24BB6607004F595E /* Localizable.stringsdict in Resources */,
 				7566052D24B864C400121222 /* Images.xcassets in Resources */,
 				7566052B24B864C300121222 /* Main.storyboard in Resources */,
 			);
@@ -875,6 +990,7 @@
 				7566055A24B8696C00121222 /* Images.xcassets in Resources */,
 				758B44A524BA28E800AAB469 /* Localizable.strings in Resources */,
 				756605AE24B873E600121222 /* Colors.xcassets in Resources */,
+				75F6FC5E24BB6607004F595E /* Localizable.stringsdict in Resources */,
 				7566054D24B868B900121222 /* Images.xcassets in Resources */,
 				7566054E24B868B900121222 /* Main.storyboard in Resources */,
 			);
@@ -889,6 +1005,7 @@
 				7566058C24B86AF100121222 /* Images.xcassets in Resources */,
 				758B44A324BA28E800AAB469 /* Localizable.strings in Resources */,
 				756605AC24B873E600121222 /* Colors.xcassets in Resources */,
+				75F6FC5C24BB6607004F595E /* Localizable.stringsdict in Resources */,
 				7566058D24B86AF100121222 /* Images.xcassets in Resources */,
 				7566058E24B86AF100121222 /* Main.storyboard in Resources */,
 			);
@@ -903,6 +1020,7 @@
 				7566059D24B86AFD00121222 /* Images.xcassets in Resources */,
 				758B44A424BA28E800AAB469 /* Localizable.strings in Resources */,
 				756605AD24B873E600121222 /* Colors.xcassets in Resources */,
+				75F6FC5D24BB6607004F595E /* Localizable.stringsdict in Resources */,
 				7566059E24B86AFD00121222 /* Images.xcassets in Resources */,
 				7566059F24B86AFD00121222 /* Main.storyboard in Resources */,
 			);
@@ -915,14 +1033,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758B456724BB5E0E00AAB469 /* Socks.swift in Sources */,
 				757ABFC224B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566052824B864C300121222 /* ViewController.swift in Sources */,
 				758B451824BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
+				758B452424BB523900AAB469 /* GetUserUseCase.swift in Sources */,
 				758B44F524BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AC24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B124BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82C24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
+				758B456224BB5DFE00AAB469 /* Book.swift in Sources */,
 				758B44CB24BB291000AAB469 /* NetworkClient.swift in Sources */,
+				758B455D24BB5DED00AAB469 /* Orange.swift in Sources */,
 				758B44DF24BB2E9900AAB469 /* UserService.swift in Sources */,
 				758B450924BB493500AAB469 /* Gender.swift in Sources */,
 				758B44B924BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
@@ -931,18 +1053,24 @@
 				758B450E24BB498200AAB469 /* UserDataModel.swift in Sources */,
 				758B44FA24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83124B886B900B2D501 /* InputViewController.swift in Sources */,
+				758B452A24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */,
 				7508C82624B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449124BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44BE24BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				758B44D524BB29EB00AAB469 /* Cancelable.swift in Sources */,
+				758B455324BB5DBD00AAB469 /* Lego.swift in Sources */,
 				757ABFCE24B88C9200F24ACB /* DatePicker.swift in Sources */,
+				759B675F24BC5C0800F8B7D4 /* Date+Extension.swift in Sources */,
 				758B451324BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44EF24BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
+				758B455824BB5DD400AAB469 /* Chocolate.swift in Sources */,
 				756605B124B8743400121222 /* BuildConfig.swift in Sources */,
 				758B44FF24BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
+				758B454E24BB5DA000AAB469 /* Gift.swift in Sources */,
 				758B44DA24BB2A3100AAB469 /* NetworkTask.swift in Sources */,
 				758B44D024BB299200AAB469 /* NetworkService.swift in Sources */,
 				758B44C424BB1FC900AAB469 /* Label.swift in Sources */,
+				758B456C24BB5E1F00AAB469 /* Flowers.swift in Sources */,
 				758B44EA24BB367800AAB469 /* ErrorDataModel.swift in Sources */,
 				758B44E524BB362400AAB469 /* DataError.swift in Sources */,
 				7566052624B864C300121222 /* SceneDelegate.swift in Sources */,
@@ -963,14 +1091,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758B456A24BB5E0E00AAB469 /* Socks.swift in Sources */,
 				757ABFC524B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566054724B868B900121222 /* ViewController.swift in Sources */,
 				758B451B24BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
+				758B452724BB523900AAB469 /* GetUserUseCase.swift in Sources */,
 				758B44F824BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AF24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B424BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82F24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
+				758B456524BB5DFE00AAB469 /* Book.swift in Sources */,
 				758B44CE24BB291000AAB469 /* NetworkClient.swift in Sources */,
+				758B456024BB5DED00AAB469 /* Orange.swift in Sources */,
 				758B44E224BB2E9900AAB469 /* UserService.swift in Sources */,
 				758B450C24BB493500AAB469 /* Gender.swift in Sources */,
 				758B44BC24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
@@ -979,18 +1111,24 @@
 				758B451124BB498200AAB469 /* UserDataModel.swift in Sources */,
 				758B44FD24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83424B886B900B2D501 /* InputViewController.swift in Sources */,
+				758B452D24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */,
 				7508C82924B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449424BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44C124BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				758B44D824BB29EB00AAB469 /* Cancelable.swift in Sources */,
+				758B455624BB5DBD00AAB469 /* Lego.swift in Sources */,
 				757ABFD124B88C9200F24ACB /* DatePicker.swift in Sources */,
+				759B676224BC5C0800F8B7D4 /* Date+Extension.swift in Sources */,
 				758B451624BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44F224BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
+				758B455B24BB5DD400AAB469 /* Chocolate.swift in Sources */,
 				756605B424B8743400121222 /* BuildConfig.swift in Sources */,
 				758B450224BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
+				758B455124BB5DA000AAB469 /* Gift.swift in Sources */,
 				758B44DD24BB2A3100AAB469 /* NetworkTask.swift in Sources */,
 				758B44D324BB299200AAB469 /* NetworkService.swift in Sources */,
 				758B44C724BB1FC900AAB469 /* Label.swift in Sources */,
+				758B456F24BB5E1F00AAB469 /* Flowers.swift in Sources */,
 				758B44ED24BB367800AAB469 /* ErrorDataModel.swift in Sources */,
 				758B44E824BB362400AAB469 /* DataError.swift in Sources */,
 				7566054924B868B900121222 /* SceneDelegate.swift in Sources */,
@@ -1003,14 +1141,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758B456824BB5E0E00AAB469 /* Socks.swift in Sources */,
 				757ABFC324B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566058524B86AF100121222 /* ViewController.swift in Sources */,
 				758B451924BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
+				758B452524BB523900AAB469 /* GetUserUseCase.swift in Sources */,
 				758B44F624BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AD24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B224BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82D24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
+				758B456324BB5DFE00AAB469 /* Book.swift in Sources */,
 				758B44CC24BB291000AAB469 /* NetworkClient.swift in Sources */,
+				758B455E24BB5DED00AAB469 /* Orange.swift in Sources */,
 				758B44E024BB2E9900AAB469 /* UserService.swift in Sources */,
 				758B450A24BB493500AAB469 /* Gender.swift in Sources */,
 				758B44BA24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
@@ -1019,18 +1161,24 @@
 				758B450F24BB498200AAB469 /* UserDataModel.swift in Sources */,
 				758B44FB24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83224B886B900B2D501 /* InputViewController.swift in Sources */,
+				758B452B24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */,
 				7508C82724B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449224BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44BF24BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				758B44D624BB29EB00AAB469 /* Cancelable.swift in Sources */,
+				758B455424BB5DBD00AAB469 /* Lego.swift in Sources */,
 				757ABFCF24B88C9200F24ACB /* DatePicker.swift in Sources */,
+				759B676024BC5C0800F8B7D4 /* Date+Extension.swift in Sources */,
 				758B451424BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44F024BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
+				758B455924BB5DD400AAB469 /* Chocolate.swift in Sources */,
 				756605B224B8743400121222 /* BuildConfig.swift in Sources */,
 				758B450024BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
+				758B454F24BB5DA000AAB469 /* Gift.swift in Sources */,
 				758B44DB24BB2A3100AAB469 /* NetworkTask.swift in Sources */,
 				758B44D124BB299200AAB469 /* NetworkService.swift in Sources */,
 				758B44C524BB1FC900AAB469 /* Label.swift in Sources */,
+				758B456D24BB5E1F00AAB469 /* Flowers.swift in Sources */,
 				758B44EB24BB367800AAB469 /* ErrorDataModel.swift in Sources */,
 				758B44E624BB362400AAB469 /* DataError.swift in Sources */,
 				7566058724B86AF100121222 /* SceneDelegate.swift in Sources */,
@@ -1043,14 +1191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758B456924BB5E0E00AAB469 /* Socks.swift in Sources */,
 				757ABFC424B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566059624B86AFD00121222 /* ViewController.swift in Sources */,
 				758B451A24BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
+				758B452624BB523900AAB469 /* GetUserUseCase.swift in Sources */,
 				758B44F724BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AE24BA5CB900AAB469 /* SexPicker.swift in Sources */,
 				758B44B324BA5D7C00AAB469 /* TextField.swift in Sources */,
 				7508C82E24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
+				758B456424BB5DFE00AAB469 /* Book.swift in Sources */,
 				758B44CD24BB291000AAB469 /* NetworkClient.swift in Sources */,
+				758B455F24BB5DED00AAB469 /* Orange.swift in Sources */,
 				758B44E124BB2E9900AAB469 /* UserService.swift in Sources */,
 				758B450B24BB493500AAB469 /* Gender.swift in Sources */,
 				758B44BB24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
@@ -1059,18 +1211,24 @@
 				758B451024BB498200AAB469 /* UserDataModel.swift in Sources */,
 				758B44FC24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83324B886B900B2D501 /* InputViewController.swift in Sources */,
+				758B452C24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */,
 				7508C82824B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449324BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44C024BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
 				758B44D724BB29EB00AAB469 /* Cancelable.swift in Sources */,
+				758B455524BB5DBD00AAB469 /* Lego.swift in Sources */,
 				757ABFD024B88C9200F24ACB /* DatePicker.swift in Sources */,
+				759B676124BC5C0800F8B7D4 /* Date+Extension.swift in Sources */,
 				758B451524BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44F124BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
+				758B455A24BB5DD400AAB469 /* Chocolate.swift in Sources */,
 				756605B324B8743400121222 /* BuildConfig.swift in Sources */,
 				758B450124BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
+				758B455024BB5DA000AAB469 /* Gift.swift in Sources */,
 				758B44DC24BB2A3100AAB469 /* NetworkTask.swift in Sources */,
 				758B44D224BB299200AAB469 /* NetworkService.swift in Sources */,
 				758B44C624BB1FC900AAB469 /* Label.swift in Sources */,
+				758B456E24BB5E1F00AAB469 /* Flowers.swift in Sources */,
 				758B44EC24BB367800AAB469 /* ErrorDataModel.swift in Sources */,
 				758B44E724BB362400AAB469 /* DataError.swift in Sources */,
 				7566059824B86AFD00121222 /* SceneDelegate.swift in Sources */,

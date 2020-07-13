@@ -1,5 +1,5 @@
 //
-//  UserDomainModel.swift
+//  Socks.swift
 //  GiftsForEveryone
 //
 //  Created by Andrei on 7/12/20.
@@ -8,9 +8,14 @@
 
 import Foundation
 
-struct UserDomainModel {
+struct Socks {
     
-    let birthday: Date
+    let name: String
+}
+
+extension Socks: Gift {
     
-    let gender: Gender
+    var description: String {
+        return name
+    }
 }
