@@ -20,14 +20,14 @@ final class InputViewController: UIViewController {
         return view
     }()
     
-    private lazy var birthdayDateTxtField: TextField = {
+    private lazy var birthdayTxtField: TextField = {
         let textField = TextField()
         textField.placeholder = NSLocalizedString("birthday", comment: "")
         textField.inputView = DatePicker()
         return textField
     }()
     
-    private lazy var sexTxtField: TextField = {
+    private lazy var genderTxtField: TextField = {
         let textField = TextField()
         textField.inputView = SexPicker()
         return textField
@@ -74,25 +74,25 @@ final class InputViewController: UIViewController {
     
     private func setupUI() {
         view.addSubview(containerView)
-        [birthdayDateTxtField, sexTxtField, currentDateTxtField, randomizeInputBtn, receiveBtn].forEach { containerView.addSubview($0) }
+        [birthdayTxtField, genderTxtField, currentDateTxtField, randomizeInputBtn, receiveBtn].forEach { containerView.addSubview($0) }
         NSLayoutConstraint.activate([
             containerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             containerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
             containerView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             containerView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
             
-            birthdayDateTxtField.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
-            birthdayDateTxtField.topAnchor.constraint(equalTo: containerView.topAnchor),
-            birthdayDateTxtField.centerXAnchor.constraint(equalTo: containerView.centerXAnchor),
-            birthdayDateTxtField.heightAnchor.constraint(equalToConstant: 35),
+            birthdayTxtField.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+            birthdayTxtField.topAnchor.constraint(equalTo: containerView.topAnchor),
+            birthdayTxtField.centerXAnchor.constraint(equalTo: containerView.centerXAnchor),
+            birthdayTxtField.heightAnchor.constraint(equalToConstant: 35),
             
-            sexTxtField.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
-            sexTxtField.topAnchor.constraint(equalTo: birthdayDateTxtField.bottomAnchor, constant: 20),
-            sexTxtField.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-            sexTxtField.heightAnchor.constraint(equalToConstant: 35),
+            genderTxtField.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+            genderTxtField.topAnchor.constraint(equalTo: birthdayTxtField.bottomAnchor, constant: 20),
+            genderTxtField.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
+            genderTxtField.heightAnchor.constraint(equalToConstant: 35),
             
             currentDateTxtField.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
-            currentDateTxtField.topAnchor.constraint(equalTo: sexTxtField.bottomAnchor, constant: 20),
+            currentDateTxtField.topAnchor.constraint(equalTo: genderTxtField.bottomAnchor, constant: 20),
             currentDateTxtField.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
             currentDateTxtField.heightAnchor.constraint(equalToConstant: 35),
             

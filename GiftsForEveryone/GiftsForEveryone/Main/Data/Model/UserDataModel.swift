@@ -10,7 +10,7 @@ import Foundation
 
 struct UserDataModel: Decodable {
     
-    let birthdayDate: Date
+    let birthday: Date
     
     let gender: Gender
     
@@ -25,14 +25,14 @@ struct UserDataModel: Decodable {
         gender = try container.decode(Gender.self, forKey: .gender)
         
         let dobContainer = try container.nestedContainer(keyedBy: CodingKeys.self, forKey: .dob)
-        birthdayDate = try dobContainer.decode(Date.self, forKey: .date)
+        birthday = try dobContainer.decode(Date.self, forKey: .date)
     }
 }
 
 extension UserDataModel {
     
     func toDomain() -> UserDomainModel {
-        return .init(birthdayDate: birthdayDate,
+        return .init(birthday: birthday,
                      gender: gender)
     }
 }

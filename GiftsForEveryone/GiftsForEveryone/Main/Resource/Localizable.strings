@@ -18,6 +18,12 @@
 "receive" = "Receive";
 "male" = "Male";
 "female" = "Female";
+"lego" = "Lego";
+"chocolate" = "%u %s %s";
+"orange" = "%u %s";
+"book" = "Book";
+"socks" = "Socks";
+"flowers" = "Flowers";
 
 // Error
 "no.internet.connection" = "No internet connection";
