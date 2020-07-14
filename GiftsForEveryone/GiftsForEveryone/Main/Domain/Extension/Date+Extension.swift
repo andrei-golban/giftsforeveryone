@@ -10,28 +10,23 @@ import Foundation
 
 extension Date {
     
-    func age(to: Date) -> Int {
-        let calendar = Calendar.current
-        let components = calendar.dateComponents([.year], from: self, to: to)
-        return components.year!
+    var year: Int {
+        return Calendar.current.component(.year, from: self)
     }
     
-    func isLeapYear() -> Bool {
-        let calendar = Calendar.current
-        let components = calendar.dateComponents([.year], from: self)
-        let year = components.year!
+    var month: Int {
+        return Calendar.current.component(.month, from: self)
+    }
+    
+    var day: Int {
+        return Calendar.current.component(.day, from: self)
+    }
+        
+    var isLeapYear: Bool {
         return (year % 100 == 0) ? (year % 400 == 0) : (year % 4 == 0)
     }
     
-    func isSameDayAs(date: Date) -> Bool {
-        let calendar = Calendar.current
-        return calendar.isDate(self, inSameDayAs: date)
-    }
-    
-    func isSameDayAs(month: Int, day: Int) -> Bool {
-        let calendar = Calendar.current
-        let components = DateComponents(calendar: calendar, month: month, day: day)
-        let date = components.date!
-        return calendar.isDate(self, inSameDayAs: date)
+    func isSameDay(month: Int, day: Int) -> Bool {
+        return self.month == month && self.day == day
     }
 }

@@ -54,6 +54,8 @@ final class ResultViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         configureUI()
+        observeViewModel()
+        viewModel.viewDidLoad()
     }
     
     private func setupUI() {
@@ -68,15 +70,15 @@ final class ResultViewController: UIViewController {
             birthdayDateLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
             birthdayDateLbl.topAnchor.constraint(equalTo: containerView.topAnchor),
             birthdayDateLbl.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-
+            
             sexLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
             sexLbl.topAnchor.constraint(equalTo: birthdayDateLbl.bottomAnchor),
             sexLbl.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-
+            
             currentDateLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
             currentDateLbl.topAnchor.constraint(equalTo: sexLbl.bottomAnchor),
             currentDateLbl.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-
+            
             giftLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
             giftLbl.topAnchor.constraint(equalTo: currentDateLbl.bottomAnchor),
             giftLbl.centerXAnchor.constraint(equalTo: containerView.centerXAnchor)
@@ -86,5 +88,14 @@ final class ResultViewController: UIViewController {
     private func configureUI() {
         view.backgroundColor = .white
         title = NSLocalizedString("result.title", comment: "")
+    }
+    
+    private func observeViewModel() {
+        viewModel.boxingGifts.bind { [weak self] gifts in
+            guard let self = self,
+                let gifts = gifts else { return }
+//            self.giftLbl.text = gifts.map { $0.title }
+//                .joined(separator: ",")
+        }
     }
 }

@@ -11,19 +11,19 @@ import Foundation
 struct UserDataModel: Decodable {
     
     let birthday: Date
-    
+
     let gender: Gender
-    
+
     enum CodingKeys: String, CodingKey {
         case gender
         case dob
         case date
     }
-    
+
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         gender = try container.decode(Gender.self, forKey: .gender)
-        
+
         let dobContainer = try container.nestedContainer(keyedBy: CodingKeys.self, forKey: .dob)
         birthday = try dobContainer.decode(Date.self, forKey: .date)
     }

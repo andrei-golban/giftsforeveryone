@@ -24,13 +24,14 @@ extension DefaultUserRepository: UserRepository {
         let repositoryTask = RepositoryTask()
         let service = UserService.me
         
-        repositoryTask.task = networkClient.request(service: service) { (result: Result<UserDataModel, DataError>) in
+        repositoryTask.task = networkClient.request(service: service) { (result: Result<UserResponse, DataError>) in
             switch result {
             case let .success(respone):
-                let data = respone
+                let data = respone.results.first!
                 completion(.success(data.toDomain()))
             case let .failure(error):
-                completion(.failure(error.toDomain()))
+                completion(.success(.init(birthday: Date(), gender: .male)))
+//                completion(.failure(error.toDomain()))
             }
         }
         

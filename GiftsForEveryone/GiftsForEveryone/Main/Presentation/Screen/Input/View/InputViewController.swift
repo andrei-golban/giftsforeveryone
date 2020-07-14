@@ -20,23 +20,24 @@ final class InputViewController: UIViewController {
         return view
     }()
     
-    private lazy var birthdayTxtField: TextField = {
-        let textField = TextField()
+    private lazy var birthdayTxtField: DateTextField = {
+        let picker = DatePicker()
+        let textField = DateTextField(datePicker: picker, dateFormat: "MM/dd/yyyy")
         textField.placeholder = NSLocalizedString("birthday", comment: "")
-        textField.inputView = DatePicker()
         return textField
     }()
     
-    private lazy var genderTxtField: TextField = {
-        let textField = TextField()
-        textField.inputView = SexPicker()
+    private lazy var genderTxtField: GenderTextField = {
+        let picker = GenderPicker(items: Gender.allCases)
+        let textField = GenderTextField(genderPicker: picker)
+        textField.inputView = picker
         return textField
     }()
     
-    private lazy var currentDateTxtField: TextField = {
-        let textField = TextField()
+    private lazy var currentDateTxtField: DateTextField = {
+        let picker = DatePicker()
+        let textField = DateTextField(datePicker: picker, dateFormat: "MM/dd/yyyy")
         textField.placeholder = NSLocalizedString("current.date", comment: "")
-        textField.inputView = DatePicker()
         return textField
     }()
     
@@ -70,6 +71,7 @@ final class InputViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         configureUI()
+        observeViewModel()
     }
     
     private func setupUI() {
@@ -113,11 +115,28 @@ final class InputViewController: UIViewController {
         title = NSLocalizedString("input.title", comment: "")
     }
     
+    private func observeViewModel() {
+        viewModel.birthday.bind { [weak self] birthday in
+            guard let self = self,
+                let birthday = birthday else { return }
+        }
+        viewModel.gender.bind { [weak self] gender in
+            guard let self = self,
+                let gender = gender else { return }
+            
+        }
+        viewModel.gifts.bind { [weak self] gifts in
+            guard let self = self,
+                let gifts = gifts else { return }
+        }
+    }
+    
     @objc private func randomizeInputBtnPressed(_ button: UIButton) {
         viewModel.randomizeInput()
     }
     
     @objc private func receiveBtnPressed(_ button: UIButton) {
-        coordinator?.showResultScreen()
+        let user = UserDomainModel(birthday: birthdayTxtField.inputValue, gender: genderTxtField.inputValue ?? .male)
+        viewModel.getGifts(user: user, date: currentDateTxtField.inputValue)
     }
 }

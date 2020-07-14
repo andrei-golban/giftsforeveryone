@@ -11,7 +11,14 @@ import UIKit
 final class InputCoordinator: BaseCoordinator {
     
     override func start() {
-        let viewModel = InputViewModel()
+        let decoder = DefaultJSONDecoder()
+        let networkClient = DefaultNetworkClient(session: .shared, decoder: decoder)
+        let userRepository = DefaultUserRepository(networkClient: networkClient)
+        let getUserUseCase = DefaultGetUserUseCase(userRepository: userRepository)
+        let holidayStore = DefaultHolidayStore()
+        let giftStore = DefaultGiftStore(holidayStore: holidayStore)
+        let getGiftUseCase = DefaultGetGiftUseCase(giftStore: giftStore)
+        let viewModel = InputViewModel(getUserUseCase: getUserUseCase, getGiftUseCase: getGiftUseCase)
         let viewController = InputViewController(viewModel: viewModel)
         
         viewController.coordinator = self
@@ -20,8 +27,8 @@ final class InputCoordinator: BaseCoordinator {
         navigationController.setViewControllers([viewController], animated: true)
     }
     
-    func showResultScreen() {
-        let viewModel = ResultViewModel()
+    func showResultScreen(gifts: [Gift]) {
+        let viewModel = ResultViewModel(gifts: gifts)
         let viewController = ResultViewController(viewModel: viewModel)
         
         viewController.coordinator = self

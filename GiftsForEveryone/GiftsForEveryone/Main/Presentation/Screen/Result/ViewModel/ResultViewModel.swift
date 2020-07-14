@@ -8,7 +8,15 @@
 
 final class ResultViewModel {
     
-    init() {
-        
+    private let gifts: [Gift]
+    
+    let boxingGifts = Box<[Gift]>()
+    
+    init(gifts: [Gift]) {
+        self.gifts = gifts
+    }
+    
+    func viewDidLoad() {
+        boxingGifts.value = gifts
     }
 }
