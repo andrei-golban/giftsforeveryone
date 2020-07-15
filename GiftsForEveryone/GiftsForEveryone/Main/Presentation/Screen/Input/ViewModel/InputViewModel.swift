@@ -24,14 +24,19 @@ final class InputViewModel {
     
     let result = Observable<ResultPresentationModel>()
     
+    let isLoadingData = Observable<Bool>()
+    
     init(getUserUseCase: GetUserUseCase, getGiftUseCase: GetGiftUseCase) {
         self.getUserUseCase = getUserUseCase
         self.getGiftUseCase = getGiftUseCase
     }
     
     func randomizeInput() {
+        isLoadingData.value = true
         getUserUseCase.execute { [weak self] response in
             guard let self = self else { return }
+            
+            self.isLoadingData.value = false
             
             switch response {
             case let .success(data):
