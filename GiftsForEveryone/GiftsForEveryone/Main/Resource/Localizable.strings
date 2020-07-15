@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  GiftsForEveryone
+
+  Created by Andrei on 7/11/20.
+  Copyright © 2020 Andrei Golban. All rights reserved.
+*/
+
+// Navigation
+"inputTitle" = "Input";
+"resultTitle" = "Results";
+
+// Screen
+"birthday" = "Birthday";
+"gender" = "Gender";
+"currentDate" = "Current date";
+"randomizeInput" = "Randomize input";
+"receive" = "Receive";
+"male" = "Male";
+"female" = "Female";
+"lego" = "Lego";
+"chocolate" = "%d %@ %@ %@";
+"orange" = "%d %@";
+"book" = "Book";
+"socks" = "Socks";
+"flowers" = "Flowers";
+"big" = "Big";
+"medium" = "Medium";
+"small" = "Small";
+"white" = "White";
+"black" = "Black";
+"receivedGifts" = "Received gifts";
+"resultFormat" = "%@: %@";
+"ok" = "OK";
+
+// Error
+"error" = "Error";
+"noInternetConnection" = "No internet connection";
+"badDataReceived" = "Bad data received";
+"badResponse" = "Bad response";
+"birthdayFieldEmpty" = "Birthday field is empty";
+"genderFieldEmpty" = "Gender field is empty";
+"currentDateEmpty" = "Current date is empty";
