@@ -10,5 +10,5 @@ import Foundation
 
 protocol UserRepository: class {
     
-    func getUser(completion: @escaping (Result<UserDomainModel, DomainError>) -> Void) -> Cancelable?
+    func getUser(completion: @escaping (Result<[UserDomainModel], DomainError>) -> Void) -> Cancelable?
 }

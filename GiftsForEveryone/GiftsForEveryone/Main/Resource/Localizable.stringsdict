@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>chocolate_count</key>
+	<key>chocolateCount</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -13,12 +13,12 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>one</key>
-			<string>chocolate</string>
+			<string>Chocolate</string>
 			<key>other</key>
-			<string>chocolates</string>
+			<string>Chocolates</string>
 		</dict>
 	</dict>
-	<key>orange_count</key>
+	<key>orangeCount</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -29,9 +29,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>one</key>
-			<string>orange</string>
+			<string>Orange</string>
 			<key>other</key>
-			<string>oranges</string>
+			<string>Oranges</string>
 		</dict>
 	</dict>
 </dict>

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import GiftsForEveryone
+@testable import GiftsForEveryone_Debug
 
 class GiftsForEveryoneTests: XCTestCase {
 

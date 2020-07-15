@@ -33,8 +33,18 @@ final class DefaultNetworkClient {
         }
     }
     
-    private func getUnderlyingError(error: Error, data: Data?) -> ErrorDataModel {
-        return .init(error: "")
+    private func getUnderlyingError(error: Error, data: Data?) -> DataError {
+        let isNetworkConnectionError = error.isNetworkConnetionError
+        
+        guard !isNetworkConnectionError else { return .noInternetConnection }
+        guard let data = data else { return .undefined }
+        
+        do {
+            let result = try decoder.decode(ErrorDataModel.self, from: data)
+            return .underlying(error: result)
+        } catch {
+            return .dataCorrupted
+        }
     }
 }
 
@@ -48,18 +58,17 @@ extension DefaultNetworkClient: NetworkClient {
         networkTask.task = session.dataTask(with: urlRequest) { [weak self] (data: Data?, response: URLResponse?, error: Error?) in
             guard let self = self else { return }
             
-            if let error = error {
-                let dataError = self.getUnderlyingError(error: error, data: data)
-                completion(.failure(.underlying(error: dataError)))
-                return
+            DispatchQueue.main.async {
+                if let error = error {
+                    let dataError = self.getUnderlyingError(error: error, data: data)
+                    completion(.failure(dataError))
+                } else if let data = data {
+                    let result = self.decode(type: T.self, data: data)
+                    completion(result)
+                } else {
+                    completion(.failure(.undefined))
+                }
             }
-            
-            guard let data = data else {
-                completion(.failure(.undefined))
-                return
-            }
-            
-            completion(self.decode(type: T.self, data: data))
         }
         
         networkTask.resume()

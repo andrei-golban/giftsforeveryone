@@ -20,29 +20,31 @@ final class InputViewController: UIViewController {
         return view
     }()
     
-    private lazy var birthdayTxtField: TextField = {
-        let textField = TextField()
-        textField.placeholder = NSLocalizedString("birthday", comment: "")
-        textField.inputView = DatePicker()
+    private lazy var birthdayTxtField: DateTextField = {
+        let picker = DatePicker()
+        let textField = DateTextField(datePicker: picker, dateFormat: "dd/MM/yyyy")
+        textField.placeholder = Localizable.Global.birthday.localized
         return textField
     }()
     
-    private lazy var genderTxtField: TextField = {
-        let textField = TextField()
-        textField.inputView = SexPicker()
+    private lazy var genderTxtField: GenderTextField = {
+        let picker = GenderPicker(items: Gender.allCases)
+        let textField = GenderTextField(genderPicker: picker)
+        textField.placeholder = Localizable.Global.gender.localized
+        textField.inputView = picker
         return textField
     }()
     
-    private lazy var currentDateTxtField: TextField = {
-        let textField = TextField()
-        textField.placeholder = NSLocalizedString("current.date", comment: "")
-        textField.inputView = DatePicker()
+    private lazy var currentDateTxtField: DateTextField = {
+        let picker = DatePicker()
+        let textField = DateTextField(datePicker: picker, dateFormat: "dd/MM/yyyy")
+        textField.placeholder = Localizable.Global.currentDate.localized
         return textField
     }()
     
     private lazy var randomizeInputBtn: Button = {
         let button = Button()
-        let title = NSLocalizedString("randomize.input", comment: "")
+        let title = Localizable.InputScreen.randomizeInput.localized
         button.setTitle(title, for: .normal)
         button.addTarget(self, action: #selector(randomizeInputBtnPressed(_:)), for: .touchUpInside)
         return button
@@ -50,7 +52,7 @@ final class InputViewController: UIViewController {
     
     private lazy var receiveBtn: Button = {
         let button = Button()
-        let title = NSLocalizedString("receive", comment: "")
+        let title = Localizable.InputScreen.receive.localized
         button.setTitle(title, for: .normal)
         button.addTarget(self, action: #selector(receiveBtnPressed(_:)), for: .touchUpInside)
         return button
@@ -70,6 +72,7 @@ final class InputViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         configureUI()
+        observeViewModel()
     }
     
     private func setupUI() {
@@ -110,7 +113,55 @@ final class InputViewController: UIViewController {
     
     private func configureUI() {
         view.backgroundColor = .white
-        title = NSLocalizedString("input.title", comment: "")
+        title = Localizable.InputScreen.inputTitle.localized
+        birthdayTxtField.valueChanged.observe { [weak self] date in
+            guard let self = self else { return }
+
+            self.viewModel.birthdayDidChange(value: date)
+        }
+        genderTxtField.valueChanged.observe { [weak self] gender in
+            guard let self = self else { return }
+
+            self.viewModel.genderDidChange(value: gender)
+        }
+        currentDateTxtField.valueChanged.observe { [weak self] date in
+            guard let self = self else { return }
+
+            self.viewModel.currentDayDidChange(value: date)
+        }
+        dismissKeyboardWhenTappedAround()
+    }
+    
+    private func observeViewModel() {
+        viewModel.birthday.observe { [weak self] birthday in
+            guard let self = self else { return }
+            
+            self.birthdayTxtField.value = birthday
+        }
+        viewModel.gender.observe { [weak self] gender in
+            guard let self = self else { return }
+            
+            self.genderTxtField.value = gender
+        }
+        viewModel.currentDay.observe { [weak self] currentDay in
+            guard let self = self else { return }
+            
+            self.currentDateTxtField.value = currentDay
+        }
+        viewModel.result.observe { [weak self] result in
+            guard let self = self else { return }
+            
+            self.coordinator?.showResultScreen(result: result)
+        }
+        
+        viewModel.error.observe { [weak self] (error) in
+            guard let self = self else { return }
+            
+            AlertHelper.showAlert(viewController: self,
+                                  title: Localizable.Error.error.localized,
+                                  message: error.localizedDescription,
+                                  confirmTitle: Localizable.Global.ok.localized)
+        }
     }
     
     @objc private func randomizeInputBtnPressed(_ button: UIButton) {
@@ -118,6 +169,6 @@ final class InputViewController: UIViewController {
     }
     
     @objc private func receiveBtnPressed(_ button: UIButton) {
-        coordinator?.showResultScreen()
+        viewModel.getGifts()
     }
 }

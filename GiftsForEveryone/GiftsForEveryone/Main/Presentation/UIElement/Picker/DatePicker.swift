@@ -10,6 +10,8 @@ import UIKit
 
 final class DatePicker: UIDatePicker {
     
+    let valueChanged = Observable<Date>()
+    
     init() {
         super.init(frame: .zero)
         configureUI()
@@ -23,5 +25,10 @@ final class DatePicker: UIDatePicker {
     private func configureUI() {
         translatesAutoresizingMaskIntoConstraints = false
         datePickerMode = .date
+        addTarget(self, action: #selector(valueChanged(datePicker:)), for: .valueChanged)
+    }
+    
+    @objc private func valueChanged(datePicker: DatePicker) {
+        valueChanged.value = datePicker.date
     }
 }

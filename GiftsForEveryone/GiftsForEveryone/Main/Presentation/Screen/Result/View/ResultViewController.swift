@@ -20,12 +20,12 @@ final class ResultViewController: UIViewController {
         return view
     }()
     
-    private lazy var birthdayDateLbl: Label = {
+    private lazy var birthdayLbl: Label = {
         let label = Label()
         return label
     }()
     
-    private lazy var sexLbl: Label = {
+    private lazy var genderLbl: Label = {
         let label = Label()
         return label
     }()
@@ -54,29 +54,31 @@ final class ResultViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         configureUI()
+        observeViewModel()
+        viewModel.viewDidLoad()
     }
     
     private func setupUI() {
         view.addSubview(containerView)
-        [birthdayDateLbl, sexLbl, currentDateLbl, giftLbl].forEach { containerView.addSubview($0) }
+        [birthdayLbl, genderLbl, currentDateLbl, giftLbl].forEach { containerView.addSubview($0) }
         NSLayoutConstraint.activate([
             containerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             containerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
             containerView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             containerView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
             
-            birthdayDateLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
-            birthdayDateLbl.topAnchor.constraint(equalTo: containerView.topAnchor),
-            birthdayDateLbl.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-
-            sexLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
-            sexLbl.topAnchor.constraint(equalTo: birthdayDateLbl.bottomAnchor),
-            sexLbl.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-
+            birthdayLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+            birthdayLbl.topAnchor.constraint(equalTo: containerView.topAnchor),
+            birthdayLbl.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
+            
+            genderLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+            genderLbl.topAnchor.constraint(equalTo: birthdayLbl.bottomAnchor),
+            genderLbl.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
+            
             currentDateLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
-            currentDateLbl.topAnchor.constraint(equalTo: sexLbl.bottomAnchor),
+            currentDateLbl.topAnchor.constraint(equalTo: genderLbl.bottomAnchor),
             currentDateLbl.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-
+            
             giftLbl.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
             giftLbl.topAnchor.constraint(equalTo: currentDateLbl.bottomAnchor),
             giftLbl.centerXAnchor.constraint(equalTo: containerView.centerXAnchor)
@@ -85,6 +87,29 @@ final class ResultViewController: UIViewController {
     
     private func configureUI() {
         view.backgroundColor = .white
-        title = NSLocalizedString("result.title", comment: "")
+        title = Localizable.ResultScreen.resultTitle.localized
+    }
+    
+    private func observeViewModel() {
+        viewModel.birthday.observe { [weak self] birthday in
+            guard let self = self else { return }
+            
+            self.birthdayLbl.text = birthday
+        }
+        viewModel.gender.observe { [weak self] gender in
+            guard let self = self else { return }
+            
+            self.genderLbl.text = gender
+        }
+        viewModel.currentDay.observe { [weak self] currentDay in
+            guard let self = self else { return }
+            
+            self.currentDateLbl.text = currentDay
+        }
+        viewModel.gifts.observe { [weak self] gifts in
+            guard let self = self else { return }
+            
+            self.giftLbl.text = gifts
+        }
     }
 }

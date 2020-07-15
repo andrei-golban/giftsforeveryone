@@ -1,5 +1,5 @@
 //
-//  SexPicker.swift
+//  GenderPicker.swift
 //  GiftsForEveryone
 //
 //  Created by Andrei on 7/11/20.
@@ -8,11 +8,14 @@
 
 import UIKit
 
-final class SexPicker: UIPickerView {
+final class GenderPicker: UIPickerView {
     
-    var items = [String]()
+    var items: [Gender]
     
-    init() {
+    let valueChanged = Observable<Gender>()
+    
+    init(items: [Gender]) {
+        self.items = items
         super.init(frame: .zero)
         configureUI()
     }
@@ -23,13 +26,12 @@ final class SexPicker: UIPickerView {
     }
     
     private func configureUI() {
-        items = ["male", "female"].map { NSLocalizedString($0, comment: "") }
         dataSource = self
         delegate = self
     }
 }
 
-extension SexPicker: UIPickerViewDataSource {
+extension GenderPicker: UIPickerViewDataSource {
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -40,13 +42,14 @@ extension SexPicker: UIPickerViewDataSource {
     }
 }
 
-extension SexPicker: UIPickerViewDelegate {
+extension GenderPicker: UIPickerViewDelegate {
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return items[row]
+        return items[row].localizedString
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
+        let item = items[row]
+        valueChanged.value = item
     }
 }
