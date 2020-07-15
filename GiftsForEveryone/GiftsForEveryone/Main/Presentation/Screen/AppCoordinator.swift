@@ -12,6 +12,8 @@ final class AppCoordinator: BaseCoordinator {
     
     var window: UIWindow
     
+    let dependency = Dependency.shared
+    
     init(window: UIWindow) {
         self.window = window
     }
@@ -24,7 +26,7 @@ final class AppCoordinator: BaseCoordinator {
     }
     
     func showInputScreen() {
-        let coordinator = InputCoordinator()
+        let coordinator = InputCoordinator(dependency: dependency)
         coordinator.navigationController = navigationController
         
         coordinate(coordinator: coordinator)

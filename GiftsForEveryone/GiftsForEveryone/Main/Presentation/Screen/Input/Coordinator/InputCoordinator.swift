@@ -10,14 +10,16 @@ import UIKit
 
 final class InputCoordinator: BaseCoordinator {
     
+    private let dependency: Dependency
+    
+    init(dependency: Dependency) {
+        self.dependency = dependency
+        super.init()
+    }
+    
     override func start() {
-        let decoder = DefaultJSONDecoder(dateFormat: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
-        let networkClient = DefaultNetworkClient(session: .shared, decoder: decoder)
-        let userRepository = DefaultUserRepository(networkClient: networkClient)
-        let getUserUseCase = DefaultGetUserUseCase(userRepository: userRepository)
-        let holidayStore = DefaultHolidayStore()
-        let giftStore = DefaultGiftStore(holidayStore: holidayStore)
-        let getGiftUseCase = DefaultGetGiftUseCase(giftStore: giftStore)
+        let getUserUseCase = dependency.resolveDefaultGetUserUseCase()
+        let getGiftUseCase = dependency.resolveDefaultGetGiftUseCase()
         let viewModel = InputViewModel(getUserUseCase: getUserUseCase, getGiftUseCase: getGiftUseCase)
         let viewController = InputViewController(viewModel: viewModel)
         
