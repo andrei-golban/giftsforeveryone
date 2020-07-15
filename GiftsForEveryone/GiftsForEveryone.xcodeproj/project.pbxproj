@@ -36,30 +36,18 @@
 		7566054C24B868B900121222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052E24B864C400121222 /* LaunchScreen.storyboard */; };
 		7566054D24B868B900121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566052C24B864C400121222 /* Images.xcassets */; };
 		7566054E24B868B900121222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052924B864C300121222 /* Main.storyboard */; };
-		7566055924B8696C00121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055824B8696C00121222 /* Images.xcassets */; };
-		7566055A24B8696C00121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055824B8696C00121222 /* Images.xcassets */; };
-		7566055C24B8697A00121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055B24B8697A00121222 /* Colors.xcassets */; };
-		7566055D24B8697A00121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055B24B8697A00121222 /* Colors.xcassets */; };
 		7566058524B86AF100121222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052724B864C300121222 /* ViewController.swift */; };
 		7566058624B86AF100121222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052324B864C300121222 /* AppDelegate.swift */; };
 		7566058724B86AF100121222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052524B864C300121222 /* SceneDelegate.swift */; };
-		7566058A24B86AF100121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055B24B8697A00121222 /* Colors.xcassets */; };
 		7566058B24B86AF100121222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052E24B864C400121222 /* LaunchScreen.storyboard */; };
-		7566058C24B86AF100121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055824B8696C00121222 /* Images.xcassets */; };
 		7566058D24B86AF100121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566052C24B864C400121222 /* Images.xcassets */; };
 		7566058E24B86AF100121222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052924B864C300121222 /* Main.storyboard */; };
 		7566059624B86AFD00121222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052724B864C300121222 /* ViewController.swift */; };
 		7566059724B86AFD00121222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052324B864C300121222 /* AppDelegate.swift */; };
 		7566059824B86AFD00121222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566052524B864C300121222 /* SceneDelegate.swift */; };
-		7566059B24B86AFD00121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055B24B8697A00121222 /* Colors.xcassets */; };
 		7566059C24B86AFD00121222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052E24B864C400121222 /* LaunchScreen.storyboard */; };
-		7566059D24B86AFD00121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566055824B8696C00121222 /* Images.xcassets */; };
 		7566059E24B86AFD00121222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7566052C24B864C400121222 /* Images.xcassets */; };
 		7566059F24B86AFD00121222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7566052924B864C300121222 /* Main.storyboard */; };
-		756605AB24B873E600121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756605AA24B873E600121222 /* Colors.xcassets */; };
-		756605AC24B873E600121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756605AA24B873E600121222 /* Colors.xcassets */; };
-		756605AD24B873E600121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756605AA24B873E600121222 /* Colors.xcassets */; };
-		756605AE24B873E600121222 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756605AA24B873E600121222 /* Colors.xcassets */; };
 		756605B124B8743400121222 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756605B024B8743400121222 /* BuildConfig.swift */; };
 		756605B224B8743400121222 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756605B024B8743400121222 /* BuildConfig.swift */; };
 		756605B324B8743400121222 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756605B024B8743400121222 /* BuildConfig.swift */; };
@@ -275,12 +263,9 @@
 		7566053A24B864C400121222 /* GiftsForEveryoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftsForEveryoneTests.swift; sourceTree = "<group>"; };
 		7566053C24B864C400121222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7566055224B868B900121222 /* GiftsForEveryone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftsForEveryone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7566055824B8696C00121222 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7566055B24B8697A00121222 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		7566056024B869CE00121222 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7566059224B86AF100121222 /* GiftsForEveryone-QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-RC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		756605AA24B873E600121222 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		756605B024B8743400121222 /* BuildConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfig.swift; sourceTree = "<group>"; };
 		756605B524B875A000121222 /* GiftsForEveryoneDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GiftsForEveryoneDebug.xcconfig; sourceTree = "<group>"; };
 		756605B624B875AD00121222 /* GiftsForEveryoneQA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GiftsForEveryoneQA.xcconfig; sourceTree = "<group>"; };
@@ -562,6 +547,14 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		7556DAB824BF38B500EABF1F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7566052C24B864C400121222 /* Images.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		7566051724B864C300121222 = {
 			isa = PBXGroup;
 			children = (
@@ -620,18 +613,9 @@
 			isa = PBXGroup;
 			children = (
 				7566055724B8694E00121222 /* Plist */,
-				7566055624B8694800121222 /* Resource */,
+				7556DAB824BF38B500EABF1F /* Resource */,
 			);
 			path = GiftsForEveryone;
-			sourceTree = "<group>";
-		};
-		7566055624B8694800121222 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				7566055824B8696C00121222 /* Images.xcassets */,
-				7566055B24B8697A00121222 /* Colors.xcassets */,
-			);
-			path = Resource;
 			sourceTree = "<group>";
 		};
 		7566055724B8694E00121222 /* Plist */ = {
@@ -693,8 +677,6 @@
 		756605A824B8739B00121222 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				7566052C24B864C400121222 /* Images.xcassets */,
-				756605AA24B873E600121222 /* Colors.xcassets */,
 				758B44A124BA28E800AAB469 /* Localizable.strings */,
 				75F6FC5A24BB6607004F595E /* Localizable.stringsdict */,
 			);
@@ -1035,11 +1017,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7566055C24B8697A00121222 /* Colors.xcassets in Resources */,
 				7566053024B864C400121222 /* LaunchScreen.storyboard in Resources */,
-				7566055924B8696C00121222 /* Images.xcassets in Resources */,
 				758B44A224BA28E800AAB469 /* Localizable.strings in Resources */,
-				756605AB24B873E600121222 /* Colors.xcassets in Resources */,
 				75F6FC5B24BB6607004F595E /* Localizable.stringsdict in Resources */,
 				7566052D24B864C400121222 /* Images.xcassets in Resources */,
 				7566052B24B864C300121222 /* Main.storyboard in Resources */,
@@ -1057,11 +1036,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7566055D24B8697A00121222 /* Colors.xcassets in Resources */,
 				7566054C24B868B900121222 /* LaunchScreen.storyboard in Resources */,
-				7566055A24B8696C00121222 /* Images.xcassets in Resources */,
 				758B44A524BA28E800AAB469 /* Localizable.strings in Resources */,
-				756605AE24B873E600121222 /* Colors.xcassets in Resources */,
 				75F6FC5E24BB6607004F595E /* Localizable.stringsdict in Resources */,
 				7566054D24B868B900121222 /* Images.xcassets in Resources */,
 				7566054E24B868B900121222 /* Main.storyboard in Resources */,
@@ -1072,11 +1048,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7566058A24B86AF100121222 /* Colors.xcassets in Resources */,
 				7566058B24B86AF100121222 /* LaunchScreen.storyboard in Resources */,
-				7566058C24B86AF100121222 /* Images.xcassets in Resources */,
 				758B44A324BA28E800AAB469 /* Localizable.strings in Resources */,
-				756605AC24B873E600121222 /* Colors.xcassets in Resources */,
 				75F6FC5C24BB6607004F595E /* Localizable.stringsdict in Resources */,
 				7566058D24B86AF100121222 /* Images.xcassets in Resources */,
 				7566058E24B86AF100121222 /* Main.storyboard in Resources */,
@@ -1087,11 +1060,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7566059B24B86AFD00121222 /* Colors.xcassets in Resources */,
 				7566059C24B86AFD00121222 /* LaunchScreen.storyboard in Resources */,
-				7566059D24B86AFD00121222 /* Images.xcassets in Resources */,
 				758B44A424BA28E800AAB469 /* Localizable.strings in Resources */,
-				756605AD24B873E600121222 /* Colors.xcassets in Resources */,
 				75F6FC5D24BB6607004F595E /* Localizable.stringsdict in Resources */,
 				7566059E24B86AFD00121222 /* Images.xcassets in Resources */,
 				7566059F24B86AFD00121222 /* Main.storyboard in Resources */,
