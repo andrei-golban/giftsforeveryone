@@ -57,9 +57,20 @@ final class InputViewModel {
     }
     
     func getGifts() {
-        guard let birthday = birthday.value,
-            let currentDay = currentDay.value,
-            let gender = gender.value else { return }
+        guard let birthday = birthday.value else {
+            error.value = DomainError.birthdayFieldEmpty
+            return
+        }
+        
+        guard let gender = gender.value else {
+            error.value = DomainError.genderFieldEmpty
+            return
+        }
+        
+        guard let currentDay = currentDay.value else {
+            error.value = DomainError.currentDateEmpty
+            return
+        }
         
         let gifts = getGiftUseCase.execute(birthDay: birthday, date: currentDay, gender: gender)
         
