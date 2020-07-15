@@ -232,6 +232,10 @@
 		75A9EC0C24BF0A95004DA824 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */; };
 		75A9EC0D24BF0A95004DA824 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */; };
 		75A9EC0E24BF0A95004DA824 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */; };
+		75A9EC1624BF1F5E004DA824 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC1524BF1F5E004DA824 /* Dependency.swift */; };
+		75A9EC1724BF1F5E004DA824 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC1524BF1F5E004DA824 /* Dependency.swift */; };
+		75A9EC1824BF1F5E004DA824 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC1524BF1F5E004DA824 /* Dependency.swift */; };
+		75A9EC1924BF1F5E004DA824 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC1524BF1F5E004DA824 /* Dependency.swift */; };
 		75F6FC5B24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
 		75F6FC5C24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
 		75F6FC5D24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
@@ -320,6 +324,7 @@
 		75A9EC0024BEF82A004DA824 /* GenderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderData.swift; sourceTree = "<group>"; };
 		75A9EC0524BF08A6004DA824 /* Error+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
 		75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		75A9EC1524BF1F5E004DA824 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
 		75F6FC5A24BB6607004F595E /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -594,6 +599,7 @@
 			isa = PBXGroup;
 			children = (
 				756605A724B8737600121222 /* App */,
+				75A9EC1424BF1F44004DA824 /* Dependency */,
 				7508C81524B87DEE00B2D501 /* Common */,
 				7508C81224B87DD400B2D501 /* Data */,
 				7508C81324B87DDB00B2D501 /* Domain */,
@@ -872,6 +878,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		75A9EC1424BF1F44004DA824 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				75A9EC1524BF1F5E004DA824 /* Dependency.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1103,6 +1117,7 @@
 				758B44FA24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83124B886B900B2D501 /* InputViewController.swift in Sources */,
 				758B452A24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */,
+				75A9EC1624BF1F5E004DA824 /* Dependency.swift in Sources */,
 				7508C82624B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449124BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44BE24BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
@@ -1167,6 +1182,7 @@
 				758B44FD24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83424B886B900B2D501 /* InputViewController.swift in Sources */,
 				758B452D24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */,
+				75A9EC1924BF1F5E004DA824 /* Dependency.swift in Sources */,
 				7508C82924B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449424BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44C124BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
@@ -1223,6 +1239,7 @@
 				758B44FB24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83224B886B900B2D501 /* InputViewController.swift in Sources */,
 				758B452B24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */,
+				75A9EC1724BF1F5E004DA824 /* Dependency.swift in Sources */,
 				7508C82724B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449224BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44BF24BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
@@ -1279,6 +1296,7 @@
 				758B44FC24BB478F00AAB469 /* UserRepository.swift in Sources */,
 				7508C83324B886B900B2D501 /* InputViewController.swift in Sources */,
 				758B452C24BB52FB00AAB469 /* GetGiftUseCase.swift in Sources */,
+				75A9EC1824BF1F5E004DA824 /* Dependency.swift in Sources */,
 				7508C82824B884EE00B2D501 /* AppCoordinator.swift in Sources */,
 				758B449324BA0AF700AAB469 /* Button.swift in Sources */,
 				758B44C024BB0BB800AAB469 /* ResultViewModel.swift in Sources */,
