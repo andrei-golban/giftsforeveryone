@@ -279,7 +279,7 @@
 		7566055B24B8697A00121222 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		7566056024B869CE00121222 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7566059224B86AF100121222 /* GiftsForEveryone-QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-RC\U0003.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GiftsForEveryone-RC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		756605AA24B873E600121222 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		756605B024B8743400121222 /* BuildConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfig.swift; sourceTree = "<group>"; };
 		756605B524B875A000121222 /* GiftsForEveryoneDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GiftsForEveryoneDebug.xcconfig; sourceTree = "<group>"; };
@@ -578,7 +578,7 @@
 				7566053624B864C400121222 /* GiftsForEveryoneTests.xctest */,
 				7566055224B868B900121222 /* GiftsForEveryone.app */,
 				7566059224B86AF100121222 /* GiftsForEveryone-QA.app */,
-				756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */,
+				756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -972,9 +972,9 @@
 			productReference = 7566059224B86AF100121222 /* GiftsForEveryone-QA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7566059424B86AFD00121222 /* GiftsForEveryone-RC */ = {
+		7566059424B86AFD00121222 /* GiftsForEveryone-RC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 756605A024B86AFD00121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-RC" */;
+			buildConfigurationList = 756605A024B86AFD00121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-RC" */;
 			buildPhases = (
 				7566059524B86AFD00121222 /* Sources */,
 				7566059924B86AFD00121222 /* Frameworks */,
@@ -984,9 +984,9 @@
 			);
 			dependencies = (
 			);
-			name = "GiftsForEveryone-RC\U0003";
+			name = "GiftsForEveryone-RC";
 			productName = GiftsForEveryone;
-			productReference = 756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */;
+			productReference = 756605A324B86AFD00121222 /* GiftsForEveryone-RC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1023,7 +1023,7 @@
 			targets = (
 				7566051F24B864C300121222 /* GiftsForEveryone-Debug */,
 				7566058324B86AF100121222 /* GiftsForEveryone-QA */,
-				7566059424B86AFD00121222 /* GiftsForEveryone-RC */,
+				7566059424B86AFD00121222 /* GiftsForEveryone-RC */,
 				7566054524B868B900121222 /* GiftsForEveryone-Release */,
 				7566053524B864C400121222 /* GiftsForEveryoneTests */,
 			);
@@ -2043,7 +2043,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		756605A024B86AFD00121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-RC" */ = {
+		756605A024B86AFD00121222 /* Build configuration list for PBXNativeTarget "GiftsForEveryone-RC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				756605A124B86AFD00121222 /* Debug */,
