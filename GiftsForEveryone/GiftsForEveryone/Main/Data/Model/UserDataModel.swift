@@ -12,7 +12,7 @@ struct UserDataModel: Decodable {
     
     let birthday: Date
 
-    let gender: Gender
+    let gender: GenderData
 
     enum CodingKeys: String, CodingKey {
         case gender
@@ -22,7 +22,7 @@ struct UserDataModel: Decodable {
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        gender = try container.decode(Gender.self, forKey: .gender)
+        gender = try container.decode(GenderData.self, forKey: .gender)
 
         let dobContainer = try container.nestedContainer(keyedBy: CodingKeys.self, forKey: .dob)
         birthday = try dobContainer.decode(Date.self, forKey: .date)
@@ -33,6 +33,6 @@ extension UserDataModel {
     
     func toDomain() -> UserDomainModel {
         return .init(birthday: birthday,
-                     gender: gender)
+                     gender: gender.toDomain())
     }
 }

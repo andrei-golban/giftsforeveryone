@@ -11,7 +11,7 @@ import UIKit
 final class InputCoordinator: BaseCoordinator {
     
     override func start() {
-        let decoder = DefaultJSONDecoder()
+        let decoder = DefaultJSONDecoder(dateFormat: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
         let networkClient = DefaultNetworkClient(session: .shared, decoder: decoder)
         let userRepository = DefaultUserRepository(networkClient: networkClient)
         let getUserUseCase = DefaultGetUserUseCase(userRepository: userRepository)
@@ -27,8 +27,8 @@ final class InputCoordinator: BaseCoordinator {
         navigationController.setViewControllers([viewController], animated: true)
     }
     
-    func showResultScreen(gifts: [Gift]) {
-        let viewModel = ResultViewModel(gifts: gifts)
+    func showResultScreen(result: ResultPresentationModel) {
+        let viewModel = ResultViewModel(result: result)
         let viewController = ResultViewController(viewModel: viewModel)
         
         viewController.coordinator = self

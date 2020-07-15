@@ -9,16 +9,25 @@
 import UIKit
 
 final class DateTextField: UITextField {
-    
+        
     private let datePicker: DatePicker
     
-    private let dateFormatter = DateFormatter()
+    private lazy var dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        return formatter
+    }()
     
-    var dateFormat: String
+    private let dateFormat: String
     
-    var inputValue: Date {
-        get { return datePicker.date }
-        set { datePicker.date = newValue }
+    var valueChanged: Observable<Date> {
+        return datePicker.valueChanged
+    }
+    
+    var value: Date = Date() {
+        didSet {
+            datePicker.date = value
+            text = dateFormatter.string(from: value)
+        }
     }
     
     init(datePicker: DatePicker, dateFormat: String) {
@@ -47,9 +56,8 @@ final class DateTextField: UITextField {
     }
     
     private func setupUI() {
-        datePicker.addTarget(self, action: #selector(valueChanged(datePicker:)), for: .valueChanged)
-        dateFormatter.dateFormat = dateFormat
         inputView = datePicker
+        dateFormatter.dateFormat = dateFormat
     }
     
     private func configureUI() {
@@ -57,9 +65,5 @@ final class DateTextField: UITextField {
         layer.borderColor = UIColor.black.cgColor
         layer.borderWidth = 1
         layer.cornerRadius = 8
-    }
-    
-    @objc private func valueChanged(datePicker: DatePicker) {
-        text = dateFormatter.string(from: datePicker.date)
     }
 }

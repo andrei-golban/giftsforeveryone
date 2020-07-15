@@ -14,13 +14,15 @@ final class InputViewModel {
     
     private let getGiftUseCase: GetGiftUseCase
     
-    let birthday = Box<Date>()
+    let birthday = Observable<Date>()
     
-    let gender = Box<Gender>()
+    let gender = Observable<Gender>()
     
-    let currentDay = Box<Date>()
+    let currentDay = Observable<Date>()
     
-    let gifts = Box<[Gift]>()
+    let error = Observable<DomainError>()
+    
+    let result = Observable<ResultPresentationModel>()
     
     init(getUserUseCase: GetUserUseCase, getGiftUseCase: GetGiftUseCase) {
         self.getUserUseCase = getUserUseCase
@@ -33,15 +35,37 @@ final class InputViewModel {
             
             switch response {
             case let .success(data):
-                self.birthday.value = data.birthday
-                self.gender.value = data.gender
+                let user = data.first
+                self.birthday.value = user?.birthday
+                self.gender.value = user?.gender
             case let .failure(error):
-                break
+                self.error.value = error
             }
         }
     }
     
-    func getGifts(user: UserDomainModel, date: Date) {
-        gifts.value = getGiftUseCase.execute(user: user, date: date)
+    func birthdayDidChange(value: Date) {
+        birthday.value = value
+    }
+    
+    func genderDidChange(value: Gender) {
+        gender.value = value
+    }
+    
+    func currentDayDidChange(value: Date) {
+        currentDay.value = value
+    }
+    
+    func getGifts() {
+        guard let birthday = birthday.value,
+            let currentDay = currentDay.value,
+            let gender = gender.value else { return }
+        
+        let gifts = getGiftUseCase.execute(birthDay: birthday, date: currentDay, gender: gender)
+        
+        result.value = ResultPresentationModel(birthDay: birthday,
+                                               gender: gender,
+                                               currentDay: currentDay,
+                                               gifts: gifts)
     }
 }

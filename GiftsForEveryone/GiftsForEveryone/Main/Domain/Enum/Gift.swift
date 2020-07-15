@@ -12,7 +12,7 @@ enum Gift {
     
     case lego
     
-    case chocolate(quantity: Int, size: ChocolateSize, color: ChocolateColor)
+    case chocolate(quantity: Int, color: ChocolateColor, size: ChocolateSize)
     
     case orange(quantity: Int)
     
@@ -22,20 +22,26 @@ enum Gift {
     
     case flowers
     
-    var name: String {
+    var localizedString: String {
         switch self {
         case .lego:
-            return "Lego"
-        case let .chocolate(quantity, color, size):
-            return "\(quantity) \(size) \(color) chocolate"
+            return Localizable.Global.lego.localized
+        case let .chocolate(quantity, size, color):
+            let format = Localizable.Global.chocolate.localized
+            let pluralFormat = Localizable.Plural.chocolateCount.localized
+            let pluralChocolate = String(format: pluralFormat, quantity)
+            return String(format: format, quantity, size.localizedString, color.localizedString, pluralChocolate)
         case let .orange(quantity):
-            return "\(quantity) orange"
+            let format = Localizable.Global.orange.localized
+            let pluralFormat = Localizable.Plural.orangeCount.localized
+            let pluralOrange = String(format: pluralFormat, quantity)
+            return String(format: format, quantity, pluralOrange)
         case .book:
-            return "Book"
+            return Localizable.Global.book.localized
         case .socks:
-            return "Socks"
+            return Localizable.Global.socks.localized
         case .flowers:
-            return "Flowers"
+            return Localizable.Global.flowers.localized
         }
     }
 }
@@ -47,6 +53,17 @@ enum ChocolateSize {
     case medium
     
     case big
+    
+    var localizedString: String {
+        switch self {
+        case .small:
+            return Localizable.Global.small.localized
+        case .medium:
+            return Localizable.Global.medium.localized
+        case .big:
+            return Localizable.Global.big.localized
+        }
+    }
 }
 
 enum ChocolateColor {
@@ -54,4 +71,13 @@ enum ChocolateColor {
     case white
     
     case black
+    
+    var localizedString: String {
+        switch self {
+        case .white:
+            return Localizable.Global.white.localized
+        case .black:
+            return Localizable.Global.black.localized
+        }
+    }
 }

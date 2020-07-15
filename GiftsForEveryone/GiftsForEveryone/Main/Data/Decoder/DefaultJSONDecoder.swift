@@ -10,13 +10,20 @@ import Foundation
 
 final class DefaultJSONDecoder: JSONDecoder {
     
-    override init() {
+    private let dateFormatter = DateFormatter()
+    
+    private let dateFormat: String
+    
+    init(dateFormat: String) {
+        self.dateFormat = dateFormat
         super.init()
         configure()
     }
     
     private func configure() {
-        dateDecodingStrategy = .iso8601
+        dateFormatter.dateFormat = dateFormat
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateDecodingStrategy = .formatted(dateFormatter)
         keyDecodingStrategy = .convertFromSnakeCase
     }
 }

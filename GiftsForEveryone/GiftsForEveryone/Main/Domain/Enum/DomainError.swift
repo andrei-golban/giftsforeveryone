@@ -17,6 +17,12 @@ enum DomainError: Error {
     case underlying(error: ErrorDomainModel)
     
     case undefined
+    
+    case birthdayFieldEmpty
+    
+    case genderFieldEmpty
+    
+    case currentDateEmpty
 }
 
 extension DomainError {
@@ -24,13 +30,19 @@ extension DomainError {
     var localizedDescription: String {
         switch self {
         case .noInternetConnection:
-            return NSLocalizedString("no.internet.connection", comment: "")
+            return Localizable.Error.noInternetConnection.localized
         case .dataCorrupted:
-            return NSLocalizedString("bad.data.received", comment: "")
+            return Localizable.Error.badDataReceived.localized
         case let .underlying(error):
             return error.failureReason
         case .undefined:
-            return NSLocalizedString("bad.response", comment: "")
+            return Localizable.Error.badResponse.localized
+        case .birthdayFieldEmpty:
+            return Localizable.Error.birthdayFieldEmpty.localized
+        case .genderFieldEmpty:
+            return Localizable.Error.genderFieldEmpty.localized
+        case .currentDateEmpty:
+            return Localizable.Error.currentDateEmpty.localized
         }
     }
 }

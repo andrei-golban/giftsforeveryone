@@ -184,10 +184,10 @@
 		759B677124BC863000F8B7D4 /* DefaultJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B676F24BC863000F8B7D4 /* DefaultJSONDecoder.swift */; };
 		759B677224BC863000F8B7D4 /* DefaultJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B676F24BC863000F8B7D4 /* DefaultJSONDecoder.swift */; };
 		759B677324BC863000F8B7D4 /* DefaultJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B676F24BC863000F8B7D4 /* DefaultJSONDecoder.swift */; };
-		759B677624BC87D900F8B7D4 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B677524BC87D900F8B7D4 /* Box.swift */; };
-		759B677724BC87D900F8B7D4 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B677524BC87D900F8B7D4 /* Box.swift */; };
-		759B677824BC87D900F8B7D4 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B677524BC87D900F8B7D4 /* Box.swift */; };
-		759B677924BC87D900F8B7D4 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B677524BC87D900F8B7D4 /* Box.swift */; };
+		759B677624BC87D900F8B7D4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B677524BC87D900F8B7D4 /* Observable.swift */; };
+		759B677724BC87D900F8B7D4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B677524BC87D900F8B7D4 /* Observable.swift */; };
+		759B677824BC87D900F8B7D4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B677524BC87D900F8B7D4 /* Observable.swift */; };
+		759B677924BC87D900F8B7D4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B677524BC87D900F8B7D4 /* Observable.swift */; };
 		759B678A24BC97C400F8B7D4 /* GenderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B678924BC97C400F8B7D4 /* GenderTextField.swift */; };
 		759B678B24BC97C400F8B7D4 /* GenderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B678924BC97C400F8B7D4 /* GenderTextField.swift */; };
 		759B678C24BC97C400F8B7D4 /* GenderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B678924BC97C400F8B7D4 /* GenderTextField.swift */; };
@@ -208,6 +208,30 @@
 		75A9EBE024BD915C004DA824 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBDE24BD915C004DA824 /* Holiday.swift */; };
 		75A9EBE124BD915C004DA824 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBDE24BD915C004DA824 /* Holiday.swift */; };
 		75A9EBE224BD915C004DA824 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBDE24BD915C004DA824 /* Holiday.swift */; };
+		75A9EBE624BDEFC7004DA824 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBE524BDEFC7004DA824 /* UIViewController+Extension.swift */; };
+		75A9EBE724BDEFC7004DA824 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBE524BDEFC7004DA824 /* UIViewController+Extension.swift */; };
+		75A9EBE824BDEFC7004DA824 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBE524BDEFC7004DA824 /* UIViewController+Extension.swift */; };
+		75A9EBE924BDEFC7004DA824 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBE524BDEFC7004DA824 /* UIViewController+Extension.swift */; };
+		75A9EBEB24BDFE00004DA824 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBEA24BDFE00004DA824 /* Localizable.swift */; };
+		75A9EBEC24BDFE00004DA824 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBEA24BDFE00004DA824 /* Localizable.swift */; };
+		75A9EBED24BDFE00004DA824 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBEA24BDFE00004DA824 /* Localizable.swift */; };
+		75A9EBEE24BDFE00004DA824 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBEA24BDFE00004DA824 /* Localizable.swift */; };
+		75A9EBFC24BE6EED004DA824 /* ResultPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBFB24BE6EED004DA824 /* ResultPresentationModel.swift */; };
+		75A9EBFD24BE6EED004DA824 /* ResultPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBFB24BE6EED004DA824 /* ResultPresentationModel.swift */; };
+		75A9EBFE24BE6EED004DA824 /* ResultPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBFB24BE6EED004DA824 /* ResultPresentationModel.swift */; };
+		75A9EBFF24BE6EED004DA824 /* ResultPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EBFB24BE6EED004DA824 /* ResultPresentationModel.swift */; };
+		75A9EC0124BEF82A004DA824 /* GenderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0024BEF82A004DA824 /* GenderData.swift */; };
+		75A9EC0224BEF82A004DA824 /* GenderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0024BEF82A004DA824 /* GenderData.swift */; };
+		75A9EC0324BEF82A004DA824 /* GenderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0024BEF82A004DA824 /* GenderData.swift */; };
+		75A9EC0424BEF82A004DA824 /* GenderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0024BEF82A004DA824 /* GenderData.swift */; };
+		75A9EC0624BF08A6004DA824 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0524BF08A6004DA824 /* Error+Extension.swift */; };
+		75A9EC0724BF08A6004DA824 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0524BF08A6004DA824 /* Error+Extension.swift */; };
+		75A9EC0824BF08A6004DA824 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0524BF08A6004DA824 /* Error+Extension.swift */; };
+		75A9EC0924BF08A6004DA824 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0524BF08A6004DA824 /* Error+Extension.swift */; };
+		75A9EC0B24BF0A95004DA824 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */; };
+		75A9EC0C24BF0A95004DA824 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */; };
+		75A9EC0D24BF0A95004DA824 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */; };
+		75A9EC0E24BF0A95004DA824 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */; };
 		75F6FC5B24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
 		75F6FC5C24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
 		75F6FC5D24BB6607004F595E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FC5A24BB6607004F595E /* Localizable.stringsdict */; };
@@ -284,12 +308,18 @@
 		758B454D24BB5DA000AAB469 /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
 		759B675E24BC5C0800F8B7D4 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		759B676F24BC863000F8B7D4 /* DefaultJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultJSONDecoder.swift; sourceTree = "<group>"; };
-		759B677524BC87D900F8B7D4 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		759B677524BC87D900F8B7D4 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		759B678924BC97C400F8B7D4 /* GenderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderTextField.swift; sourceTree = "<group>"; };
 		759B678E24BC97E300F8B7D4 /* DateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTextField.swift; sourceTree = "<group>"; };
 		75A9EBC024BCFB20004DA824 /* GiftStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftStore.swift; sourceTree = "<group>"; };
 		75A9EBD924BD8EFF004DA824 /* HolidayStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayStore.swift; sourceTree = "<group>"; };
 		75A9EBDE24BD915C004DA824 /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		75A9EBE524BDEFC7004DA824 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		75A9EBEA24BDFE00004DA824 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		75A9EBFB24BE6EED004DA824 /* ResultPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPresentationModel.swift; sourceTree = "<group>"; };
+		75A9EC0024BEF82A004DA824 /* GenderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderData.swift; sourceTree = "<group>"; };
+		75A9EC0524BF08A6004DA824 /* Error+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
+		75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		75F6FC5A24BB6607004F595E /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -352,7 +382,6 @@
 				7508C81924B880DA00B2D501 /* Model */,
 				7508C81A24B880DF00B2D501 /* Repository */,
 				7508C81B24B880E500B2D501 /* UseCase */,
-				759B679324BC9AC900F8B7D4 /* Extension */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -361,9 +390,10 @@
 			isa = PBXGroup;
 			children = (
 				7508C81F24B8813C00B2D501 /* Common */,
-				7508C81E24B8812300B2D501 /* Helper */,
+				75A9EBFA24BE6EC0004DA824 /* Model */,
 				7508C81C24B8810000B2D501 /* Screen */,
 				7508C81D24B8811000B2D501 /* UIElement */,
+				7508C81E24B8812300B2D501 /* Helper */,
 				759B677424BC87BF00F8B7D4 /* Utilities */,
 			);
 			path = Presentation;
@@ -458,6 +488,7 @@
 		7508C81E24B8812300B2D501 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				75A9EC0A24BF0A95004DA824 /* AlertHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -567,6 +598,7 @@
 				7508C81224B87DD400B2D501 /* Data */,
 				7508C81324B87DDB00B2D501 /* Domain */,
 				7508C81424B87DE100B2D501 /* Presentation */,
+				759B679324BC9AC900F8B7D4 /* Extension */,
 				756605A824B8739B00121222 /* Resource */,
 			);
 			path = Main;
@@ -756,6 +788,7 @@
 			isa = PBXGroup;
 			children = (
 				758B44E424BB362400AAB469 /* DataError.swift */,
+				75A9EC0024BEF82A004DA824 /* GenderData.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -806,7 +839,8 @@
 		759B677424BC87BF00F8B7D4 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				759B677524BC87D900F8B7D4 /* Box.swift */,
+				75A9EBEA24BDFE00004DA824 /* Localizable.swift */,
+				759B677524BC87D900F8B7D4 /* Observable.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -815,6 +849,8 @@
 			isa = PBXGroup;
 			children = (
 				759B675E24BC5C0800F8B7D4 /* Date+Extension.swift */,
+				75A9EC0524BF08A6004DA824 /* Error+Extension.swift */,
+				75A9EBE524BDEFC7004DA824 /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -826,6 +862,14 @@
 				75A9EBD924BD8EFF004DA824 /* HolidayStore.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		75A9EBFA24BE6EC0004DA824 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75A9EBFB24BE6EED004DA824 /* ResultPresentationModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1037,16 +1081,21 @@
 				757ABFC224B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566052824B864C300121222 /* ViewController.swift in Sources */,
 				758B451824BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
+				75A9EC0B24BF0A95004DA824 /* AlertHelper.swift in Sources */,
+				75A9EC0124BEF82A004DA824 /* GenderData.swift in Sources */,
 				758B452424BB523900AAB469 /* GetUserUseCase.swift in Sources */,
 				758B44F524BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AC24BA5CB900AAB469 /* GenderPicker.swift in Sources */,
+				75A9EBEB24BDFE00004DA824 /* Localizable.swift in Sources */,
 				7508C82C24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
-				759B677624BC87D900F8B7D4 /* Box.swift in Sources */,
+				759B677624BC87D900F8B7D4 /* Observable.swift in Sources */,
 				758B44CB24BB291000AAB469 /* NetworkClient.swift in Sources */,
 				758B44DF24BB2E9900AAB469 /* UserService.swift in Sources */,
 				758B450924BB493500AAB469 /* Gender.swift in Sources */,
+				75A9EBE624BDEFC7004DA824 /* UIViewController+Extension.swift in Sources */,
 				758B44B924BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566052424B864C300121222 /* AppDelegate.swift in Sources */,
+				75A9EBFC24BE6EED004DA824 /* ResultPresentationModel.swift in Sources */,
 				7508C83C24B8878000B2D501 /* NavController.swift in Sources */,
 				758B450E24BB498200AAB469 /* UserDataModel.swift in Sources */,
 				75A9EBDA24BD8EFF004DA824 /* HolidayStore.swift in Sources */,
@@ -1063,6 +1112,7 @@
 				759B675F24BC5C0800F8B7D4 /* Date+Extension.swift in Sources */,
 				758B451324BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44EF24BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
+				75A9EC0624BF08A6004DA824 /* Error+Extension.swift in Sources */,
 				756605B124B8743400121222 /* BuildConfig.swift in Sources */,
 				759B678A24BC97C400F8B7D4 /* GenderTextField.swift in Sources */,
 				758B44FF24BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
@@ -1095,16 +1145,21 @@
 				757ABFC524B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566054724B868B900121222 /* ViewController.swift in Sources */,
 				758B451B24BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
+				75A9EC0E24BF0A95004DA824 /* AlertHelper.swift in Sources */,
+				75A9EC0424BEF82A004DA824 /* GenderData.swift in Sources */,
 				758B452724BB523900AAB469 /* GetUserUseCase.swift in Sources */,
 				758B44F824BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AF24BA5CB900AAB469 /* GenderPicker.swift in Sources */,
+				75A9EBEE24BDFE00004DA824 /* Localizable.swift in Sources */,
 				7508C82F24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
-				759B677924BC87D900F8B7D4 /* Box.swift in Sources */,
+				759B677924BC87D900F8B7D4 /* Observable.swift in Sources */,
 				758B44CE24BB291000AAB469 /* NetworkClient.swift in Sources */,
 				758B44E224BB2E9900AAB469 /* UserService.swift in Sources */,
 				758B450C24BB493500AAB469 /* Gender.swift in Sources */,
+				75A9EBE924BDEFC7004DA824 /* UIViewController+Extension.swift in Sources */,
 				758B44BC24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566054824B868B900121222 /* AppDelegate.swift in Sources */,
+				75A9EBFF24BE6EED004DA824 /* ResultPresentationModel.swift in Sources */,
 				7508C83F24B8878000B2D501 /* NavController.swift in Sources */,
 				758B451124BB498200AAB469 /* UserDataModel.swift in Sources */,
 				75A9EBDD24BD8EFF004DA824 /* HolidayStore.swift in Sources */,
@@ -1121,6 +1176,7 @@
 				759B676224BC5C0800F8B7D4 /* Date+Extension.swift in Sources */,
 				758B451624BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44F224BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
+				75A9EC0924BF08A6004DA824 /* Error+Extension.swift in Sources */,
 				756605B424B8743400121222 /* BuildConfig.swift in Sources */,
 				759B678D24BC97C400F8B7D4 /* GenderTextField.swift in Sources */,
 				758B450224BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
@@ -1145,16 +1201,21 @@
 				757ABFC324B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566058524B86AF100121222 /* ViewController.swift in Sources */,
 				758B451924BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
+				75A9EC0C24BF0A95004DA824 /* AlertHelper.swift in Sources */,
+				75A9EC0224BEF82A004DA824 /* GenderData.swift in Sources */,
 				758B452524BB523900AAB469 /* GetUserUseCase.swift in Sources */,
 				758B44F624BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AD24BA5CB900AAB469 /* GenderPicker.swift in Sources */,
+				75A9EBEC24BDFE00004DA824 /* Localizable.swift in Sources */,
 				7508C82D24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
-				759B677724BC87D900F8B7D4 /* Box.swift in Sources */,
+				759B677724BC87D900F8B7D4 /* Observable.swift in Sources */,
 				758B44CC24BB291000AAB469 /* NetworkClient.swift in Sources */,
 				758B44E024BB2E9900AAB469 /* UserService.swift in Sources */,
 				758B450A24BB493500AAB469 /* Gender.swift in Sources */,
+				75A9EBE724BDEFC7004DA824 /* UIViewController+Extension.swift in Sources */,
 				758B44BA24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566058624B86AF100121222 /* AppDelegate.swift in Sources */,
+				75A9EBFD24BE6EED004DA824 /* ResultPresentationModel.swift in Sources */,
 				7508C83D24B8878000B2D501 /* NavController.swift in Sources */,
 				758B450F24BB498200AAB469 /* UserDataModel.swift in Sources */,
 				75A9EBDB24BD8EFF004DA824 /* HolidayStore.swift in Sources */,
@@ -1171,6 +1232,7 @@
 				759B676024BC5C0800F8B7D4 /* Date+Extension.swift in Sources */,
 				758B451424BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44F024BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
+				75A9EC0724BF08A6004DA824 /* Error+Extension.swift in Sources */,
 				756605B224B8743400121222 /* BuildConfig.swift in Sources */,
 				759B678B24BC97C400F8B7D4 /* GenderTextField.swift in Sources */,
 				758B450024BB47FB00AAB469 /* UserDomainModel.swift in Sources */,
@@ -1195,16 +1257,21 @@
 				757ABFC424B88A0600F24ACB /* InputCoordinator.swift in Sources */,
 				7566059624B86AFD00121222 /* ViewController.swift in Sources */,
 				758B451A24BB4CA100AAB469 /* RepositoryTask.swift in Sources */,
+				75A9EC0D24BF0A95004DA824 /* AlertHelper.swift in Sources */,
+				75A9EC0324BEF82A004DA824 /* GenderData.swift in Sources */,
 				758B452624BB523900AAB469 /* GetUserUseCase.swift in Sources */,
 				758B44F724BB36FF00AAB469 /* DomainError.swift in Sources */,
 				758B44AE24BA5CB900AAB469 /* GenderPicker.swift in Sources */,
+				75A9EBED24BDFE00004DA824 /* Localizable.swift in Sources */,
 				7508C82E24B8851500B2D501 /* BaseCoordinator.swift in Sources */,
-				759B677824BC87D900F8B7D4 /* Box.swift in Sources */,
+				759B677824BC87D900F8B7D4 /* Observable.swift in Sources */,
 				758B44CD24BB291000AAB469 /* NetworkClient.swift in Sources */,
 				758B44E124BB2E9900AAB469 /* UserService.swift in Sources */,
 				758B450B24BB493500AAB469 /* Gender.swift in Sources */,
+				75A9EBE824BDEFC7004DA824 /* UIViewController+Extension.swift in Sources */,
 				758B44BB24BB0BAC00AAB469 /* ResultViewController.swift in Sources */,
 				7566059724B86AFD00121222 /* AppDelegate.swift in Sources */,
+				75A9EBFE24BE6EED004DA824 /* ResultPresentationModel.swift in Sources */,
 				7508C83E24B8878000B2D501 /* NavController.swift in Sources */,
 				758B451024BB498200AAB469 /* UserDataModel.swift in Sources */,
 				75A9EBDC24BD8EFF004DA824 /* HolidayStore.swift in Sources */,
@@ -1221,6 +1288,7 @@
 				759B676124BC5C0800F8B7D4 /* Date+Extension.swift in Sources */,
 				758B451524BB49F200AAB469 /* DefaultUserRepository.swift in Sources */,
 				758B44F124BB36A600AAB469 /* ErrorDomainModel.swift in Sources */,
+				75A9EC0824BF08A6004DA824 /* Error+Extension.swift in Sources */,
 				756605B324B8743400121222 /* BuildConfig.swift in Sources */,
 				759B678C24BC97C400F8B7D4 /* GenderTextField.swift in Sources */,
 				758B450124BB47FB00AAB469 /* UserDomainModel.swift in Sources */,

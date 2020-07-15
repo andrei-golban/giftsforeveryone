@@ -10,7 +10,7 @@ import Foundation
 
 protocol GetGiftUseCase: class {
     
-    func execute(user: UserDomainModel, date: Date) -> [Gift]
+   func execute(birthDay: Date, date: Date, gender: Gender) -> [Gift]
 }
 
 final class DefaultGetGiftUseCase {
@@ -24,7 +24,7 @@ final class DefaultGetGiftUseCase {
 
 extension DefaultGetGiftUseCase: GetGiftUseCase {
     
-    func execute(user: UserDomainModel, date: Date) -> [Gift] {
-        return giftStore.getGifts(user: user, date: date)
+    func execute(birthDay: Date, date: Date, gender: Gender) -> [Gift] {
+        return giftStore.getGifts(birthday: birthDay, date: date, gender: gender)
     }
 }

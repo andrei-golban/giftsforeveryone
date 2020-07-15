@@ -10,13 +10,12 @@ import UIKit
 
 final class GenderPicker: UIPickerView {
     
-    typealias Listener = (Gender) -> Void
+    var items: [Gender]
     
-    private var items = [Gender]()
-    
-    var listener: Listener?
+    let valueChanged = Observable<Gender>()
     
     init(items: [Gender]) {
+        self.items = items
         super.init(frame: .zero)
         configureUI()
     }
@@ -24,10 +23,6 @@ final class GenderPicker: UIPickerView {
     @available(*, unavailable)
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-    
-    func bind(listener: Listener?) {
-        self.listener = listener
     }
     
     private func configureUI() {
@@ -55,6 +50,6 @@ extension GenderPicker: UIPickerViewDelegate {
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         let item = items[row]
-        listener?(item)
+        valueChanged.value = item
     }
 }

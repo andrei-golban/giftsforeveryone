@@ -19,7 +19,7 @@ final class DefaultUserRepository {
 
 extension DefaultUserRepository: UserRepository {
     
-    func getUser(completion: @escaping (Result<UserDomainModel, DomainError>) -> Void) -> Cancelable? {
+    func getUser(completion: @escaping (Result<[UserDomainModel], DomainError>) -> Void) -> Cancelable? {
         
         let repositoryTask = RepositoryTask()
         let service = UserService.me
@@ -27,11 +27,10 @@ extension DefaultUserRepository: UserRepository {
         repositoryTask.task = networkClient.request(service: service) { (result: Result<UserResponse, DataError>) in
             switch result {
             case let .success(respone):
-                let data = respone.results.first!
-                completion(.success(data.toDomain()))
+                let data = respone.results
+                completion(.success(data.map { $0.toDomain() }))
             case let .failure(error):
-                completion(.success(.init(birthday: Date(), gender: .male)))
-//                completion(.failure(error.toDomain()))
+                completion(.failure(error.toDomain()))
             }
         }
         

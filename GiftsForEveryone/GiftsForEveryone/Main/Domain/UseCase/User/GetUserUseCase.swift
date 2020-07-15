@@ -11,7 +11,7 @@ import Foundation
 protocol GetUserUseCase: class {
     
     @discardableResult
-    func execute(completion: @escaping (Result<UserDomainModel, DomainError>) -> Void) -> Cancelable?
+    func execute(completion: @escaping (Result<[UserDomainModel], DomainError>) -> Void) -> Cancelable?
 }
 
 final class DefaultGetUserUseCase {
@@ -25,7 +25,7 @@ final class DefaultGetUserUseCase {
 
 extension DefaultGetUserUseCase: GetUserUseCase {
     
-    func execute(completion: @escaping (Result<UserDomainModel, DomainError>) -> Void) -> Cancelable? {
+    func execute(completion: @escaping (Result<[UserDomainModel], DomainError>) -> Void) -> Cancelable? {
         return userRepository.getUser(completion: completion)
     }
 }

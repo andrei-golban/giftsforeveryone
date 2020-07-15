@@ -10,30 +10,24 @@ import Foundation
 
 protocol GiftStore {
     
-    func getGifts(user: UserDomainModel, date: Date) -> [Gift]
+    func getGifts(birthday: Date, date: Date, gender: Gender) -> [Gift]
 }
 
 struct DefaultGiftStore {
     
     let holidayStore: HolidayStore
     
-    private func getGifts(holiday: Holiday, user: UserDomainModel, date: Date) -> [Gift] {
-        let isLeapYear = date.isLeapYear
-        
-        guard !isLeapYear else { return [] }
-        
-        let age = date.year - user.birthday.year
-        
+    private func getGifts(holiday: Holiday, age: Int, gender: Gender) -> [Gift] {
         switch holiday {
         case .birthday where (7...12).contains(age):
             return [.lego, .book]
         case .birthday:
             return [.book]
         case .newYear where (7...12).contains(age):
-            return [.chocolate(quantity: 1, size: .big, color: .black), .orange(quantity: 1)]
-        case .february23 where user.gender == .male:
+            return [.chocolate(quantity: 1, color: .black, size: .big), .orange(quantity: 1)]
+        case .february23 where gender == .male:
             return [.socks]
-        case .march8 where user.gender == .female:
+        case .march8 where gender == .female:
             return [.flowers]
         default:
             return []
@@ -43,8 +37,14 @@ struct DefaultGiftStore {
 
 extension DefaultGiftStore: GiftStore {
     
-    func getGifts(user: UserDomainModel, date: Date) -> [Gift] {
-        let holidays = holidayStore.getHolidays(user: user, date: date)
-        return holidays.flatMap { getGifts(holiday: $0, user: user, date: date) }
+    func getGifts(birthday: Date, date: Date, gender: Gender) -> [Gift] {
+        let isLeapYear = date.isLeapYear
+        
+        guard !isLeapYear else { return [] }
+        
+        let age = date.year - birthday.year
+        let holidays = holidayStore.getHolidays(birthday: birthday, date: date)
+        
+        return holidays.flatMap { getGifts(holiday: $0, age: age, gender: gender) }
     }
 }

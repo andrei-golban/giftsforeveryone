@@ -12,9 +12,19 @@ final class GenderTextField: UITextField {
     
     private let genderPicker: GenderPicker
     
-    var inputValue: Gender? {
-        get { return Gender(rawValue: genderPicker.selectedRow(inComponent: 0)) }
-        set { genderPicker.selectedRow(inComponent: 0) }
+    var valueChanged: Observable<Gender> {
+        return genderPicker.valueChanged
+    }
+    
+    var value: Gender? {
+        didSet {
+            if let value = value {
+                genderPicker.selectRow(value.rawValue, inComponent: 0, animated: true)
+                text = value.localizedString
+            } else {
+                text = ""
+            }
+        }
     }
     
     init(genderPicker: GenderPicker) {
@@ -42,12 +52,6 @@ final class GenderTextField: UITextField {
     }
     
     private func setupUI() {
-        genderPicker.bind { [weak self] item in
-            guard let self = self else { return }
-            
-            self.text = item.localizedString
-            self.endEditing(true)
-        }
         inputView = genderPicker
     }
     

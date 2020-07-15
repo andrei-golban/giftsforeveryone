@@ -10,7 +10,7 @@ import Foundation
 
 protocol HolidayStore {
     
-    func getHolidays(user: UserDomainModel, date: Date) -> [Holiday]
+    func getHolidays(birthday: Date, date: Date) -> [Holiday]
 }
 
 struct DefaultHolidayStore {
@@ -22,8 +22,8 @@ struct DefaultHolidayStore {
 
 extension DefaultHolidayStore: HolidayStore {
     
-    func getHolidays(user: UserDomainModel, date: Date) -> [Holiday] {
-        let holidays = createHolidays(birthDate: user.birthday)
+    func getHolidays(birthday: Date, date: Date) -> [Holiday] {
+        let holidays = createHolidays(birthDate: birthday)
         return holidays.filter { date.isSameDay(month: $0.month, day: $0.day) }
     }
 }

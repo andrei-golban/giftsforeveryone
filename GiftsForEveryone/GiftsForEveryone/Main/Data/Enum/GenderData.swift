@@ -1,25 +1,28 @@
 //
-//  Gender.swift
+//  GenderData.swift
 //  GiftsForEveryone
 //
-//  Created by Andrei on 7/12/20.
+//  Created by Andrei on 7/15/20.
 //  Copyright © 2020 Andrei Golban. All rights reserved.
 //
 
 import Foundation
 
-enum Gender: Int, CaseIterable {
+enum GenderData: String, Decodable {
     
     case male
     
     case female
+}
+
+extension GenderData {
     
-    var localizedString: String {
+    func toDomain() -> Gender {
         switch self {
         case .male:
-            return Localizable.Global.male.localized
+            return Gender.male
         case .female:
-            return Localizable.Global.female.localized
+            return Gender.female
         }
     }
 }
