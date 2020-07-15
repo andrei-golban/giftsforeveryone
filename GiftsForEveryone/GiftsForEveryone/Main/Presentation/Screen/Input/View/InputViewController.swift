@@ -14,6 +14,11 @@ final class InputViewController: UIViewController {
     
     private let viewModel: InputViewModel
     
+    private lazy var loadingView: LoadingView = {
+        let view = LoadingView()
+        return view
+    }()
+    
     private lazy var containerView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -116,17 +121,17 @@ final class InputViewController: UIViewController {
         title = Localizable.InputScreen.inputTitle.localized
         birthdayTxtField.valueChanged.observe { [weak self] date in
             guard let self = self else { return }
-
+            
             self.viewModel.birthdayDidChange(value: date)
         }
         genderTxtField.valueChanged.observe { [weak self] gender in
             guard let self = self else { return }
-
+            
             self.viewModel.genderDidChange(value: gender)
         }
         currentDateTxtField.valueChanged.observe { [weak self] date in
             guard let self = self else { return }
-
+            
             self.viewModel.currentDayDidChange(value: date)
         }
         dismissKeyboardWhenTappedAround()
@@ -161,6 +166,16 @@ final class InputViewController: UIViewController {
                                   title: Localizable.Error.error.localized,
                                   message: error.localizedDescription,
                                   confirmTitle: Localizable.Global.ok.localized)
+        }
+        
+        viewModel.isLoadingData.observe { [weak self] isLoading in
+            guard let self = self else { return }
+            
+            if isLoading {
+                self.loadingView.show(on: self.view)
+            } else {
+                self.loadingView.hide()
+            }
         }
     }
     
